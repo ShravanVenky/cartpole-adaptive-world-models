@@ -1,0 +1,6 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "device": "cuda",
+  "total_memory": 8585216000
+}

@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "conditions": [
+    {
+      "name": "nominal",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30,
+      "online": false
+    },
+    {
+      "name": "combined_geometry",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30,
+      "online": false
+    },
+    {
+      "name": "strong_gain",
+      "environment": "strong_gain",
+      "task": "swingup",
+      "horizon": 30,
+      "online": false
+    },
+    {
+      "name": "near_gain",
+      "environment": "near_gain",
+      "task": "swingup",
+      "horizon": 30,
+      "online": false
+    },
+    {
+      "name": "combined_friction_gain",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30,
+      "online": false
+    },
+    {
+      "name": "online_strong_gain",
+      "environment": "strong_gain",
+      "task": "swingup",
+      "horizon": 30,
+      "online": true
+    },
+    {
+      "name": "online_combined_geometry",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30,
+      "online": true
+    },
+    {
+      "name": "balance_gain",
+      "environment": "strong_gain",
+      "task": "balance",
+      "horizon": 15,
+      "online": false
+    }
+  ],
+  "environments": [
+    {
+      "name": "nominal",
+      "category": "nominal"
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "development_trials": [
+    100
+  ],
+  "confirmation_trials": [
+    200,
+    201,
+    202
+  ],
+  "alphas": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "budgets": {
+    "baseline": [
+      128,
+      3
+    ],
+    "expanded": [
+      512,
+      5
+    ],
+    "high": [
+      1024,
+      5
+    ]
+  },
+  "elites": "one eighth of candidates: 16, 64, 128",
+  "swingup_steps": 600,
+  "balance_steps": 400,
+  "shift_swingup": 25,
+  "shift_balance": 150,
+  "online_updates": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "support_sizes": [
+    20,
+    50
+  ],
+  "support_pool_steps": 128,
+  "support_pool_trajectories": 8,
+  "support_types": [
+    "consecutive",
+    "random_multi",
+    "state_diverse",
+    "state_action_diverse"
+  ],
+  "rail_boundary": 2.4,
+  "safety_soft": 100000.0,
+  "stronger_soft": 1000000.0,
+  "safety_margin": 0.3,
+  "near_upright_speed_penalty": 4.0,
+  "terminal_stabilization_extra": 20.0,
+  "success_angle": 0.15,
+  "success_omega": 0.8,
+  "sustained_steps": 100,
+  "recovery_window": 25,
+  "excessive_crossing_speed": 4.0,
+  "failure_penalty": 100000.0,
+  "numerical_state_bound": 100.0,
+  "replay_categories": [
+    "frozen_success",
+    "frozen_success_meta_failure",
+    "ridge_failure",
+    "large_angle",
+    "high_omega",
+    "near_rail",
+    "combined",
+    "online_shift"
+  ],
+  "replay_per_category_per_seed": 1,
+  "replay_broad_candidates": 128,
+  "replay_chunk": 128,
+  "replay_top_k": 10,
+  "replay_horizon": 30,
+  "training_reference_count": 8192,
+  "max_control_batch_rows": 64,
+  "noise": "none",
+  "offline_training": false,
+  "actual_termination": "unchanged: rail/nonfinite/other-state bound100",
+  "selection": "development only; highest success then lowest mean baseline-objective cost; one winner per family/method",
+  "confirmation": "independent initial/support/random-number namespaces and trials; no confirmation tuning",
+  "online_support": "own actual past post-change transitions only; reset/refit cumulative prefixes",
+  "coverage": "normalized six-dimensional observable features; marginal and nearest-neighbor joint distances",
+  "notes": "All effect comparisons use original V2 stage cost; altered planner objectives also logged separately."
+}

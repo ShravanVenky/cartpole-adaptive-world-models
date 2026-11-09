@@ -1,0 +1,18 @@
+{
+  "saved_replay_slots": 125,
+  "fixed_query_groups": 25,
+  "fixed_query_model_rows": 1200,
+  "pre_failure_state_slots": 40,
+  "pre_failure_control_slots": 240,
+  "development_substitution_forks": 100,
+  "confirmation_substitution_forks": 100,
+  "new_online_confirmation_control_records": 350,
+  "full_control_slots": 790,
+  "confirmation_replay_slots": 60,
+  "dense_diagnostic_copies": 40,
+  "dense_training_updates": 160000,
+  "dense_labelled_transitions_per_seed_environment": 20480,
+  "max_candidate_pool": 1676,
+  "offline_scored_model_trajectories_upper_bound": 2240680,
+  "notes": "Counts are planned slots. Failed histories and missing archived strata are explicit unavailable records. No truncation is silently treated as task completion."
+}

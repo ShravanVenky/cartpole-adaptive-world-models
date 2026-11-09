@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "model_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "development_trials": [
+    300
+  ],
+  "confirmation_trials": [
+    400,
+    401
+  ],
+  "fixed_confirmation_trials": [
+    500,
+    501
+  ],
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    10,
+    20,
+    50
+  ],
+  "regularization_K": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "conditions": [
+    {
+      "name": "active_swingup__nominal",
+      "phase": "active_swingup",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__near_gain",
+      "phase": "active_swingup",
+      "environment": "near_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__strong_gain",
+      "phase": "active_swingup",
+      "environment": "strong_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__combined_geometry",
+      "phase": "active_swingup",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__combined_friction_gain",
+      "phase": "active_swingup",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "upright_entry__nominal",
+      "phase": "upright_entry",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "upright_entry__near_gain",
+      "phase": "upright_entry",
+      "environment": "near_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "upright_entry__strong_gain",
+      "phase": "upright_entry",
+      "environment": "strong_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "upright_entry__combined_geometry",
+      "phase": "upright_entry",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "upright_entry__combined_friction_gain",
+      "phase": "upright_entry",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "stable_balance__nominal",
+      "phase": "stable_balance",
+      "environment": "nominal",
+      "task": "balance",
+      "horizon": 15
+    },
+    {
+      "name": "stable_balance__near_gain",
+      "phase": "stable_balance",
+      "environment": "near_gain",
+      "task": "balance",
+      "horizon": 15
+    },
+    {
+      "name": "stable_balance__strong_gain",
+      "phase": "stable_balance",
+      "environment": "strong_gain",
+      "task": "balance",
+      "horizon": 15
+    },
+    {
+      "name": "stable_balance__combined_geometry",
+      "phase": "stable_balance",
+      "environment": "combined_geometry",
+      "task": "balance",
+      "horizon": 15
+    },
+    {
+      "name": "stable_balance__combined_friction_gain",
+      "phase": "stable_balance",
+      "environment": "combined_friction_gain",
+      "task": "balance",
+      "horizon": 15
+    }
+  ],
+  "fixed_conditions": [
+    {
+      "name": "nominal_swingup",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "geometry_swingup",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "friction_swingup",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "nominal_balance",
+      "environment": "nominal",
+      "task": "balance",
+      "horizon": 15
+    }
+  ],
+  "environments": [
+    {
+      "name": "nominal",
+      "category": "nominal"
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "budgets": {
+    "baseline": [
+      128,
+      3
+    ],
+    "high": [
+      1024,
+      5
+    ]
+  },
+  "elite_fraction": 0.125,
+  "active_change_step": 10,
+  "stable_warmup_steps": 100,
+  "stable_required_steps": 50,
+  "entry_max_steps": 450,
+  "swingup_steps": 600,
+  "balance_steps": 400,
+  "max_batch_rows": 48,
+  "snapshot_conditions": 4,
+  "recovery_cases": 25,
+  "recovery_historical_cases": 10,
+  "oracle_gate_success": 0.8,
+  "oracle_gate_poststeps": 100,
+  "ranking_broad_candidates": 128,
+  "ranking_chunk": 128,
+  "multistep_horizons": [
+    1,
+    5,
+    15,
+    30,
+    100
+  ],
+  "ridge_lambda_reference": 0.1,
+  "ridge_K_reference": 20,
+  "ridge_objectives": {
+    "existing": "sum squared residual +0.1*||B||^2",
+    "count_scaled": "mean squared residual +(0.1/20)*||B||^2; equivalent sum loss +0.1*K/20*||B||^2"
+  },
+  "support_pool_steps": 128,
+  "support_pool_trajectories": 8,
+  "dt": 0.02,
+  "rail_boundary": 2.4,
+  "success_angle": 0.15,
+  "success_omega": 0.8,
+  "sustained_steps": 100,
+  "recovery_window": 25,
+  "failure_penalty": 100000.0,
+  "numerical_state_bound": 100.0,
+  "excessive_crossing_speed": 4.0,
+  "near_upright_speed_penalty": 4.0,
+  "terminal_stabilization_extra": 20.0,
+  "bootstrap_samples": 2000,
+  "bootstrap_seed": 4123,
+  "noise": "none",
+  "offline_training": false,
+  "warmup": "One shared Frozen nominal controller per phase/modelseed/episode; all methods branch at identical observed change state.",
+  "observation_rule": "Only completed, non-failing, actual post-change transitions. Failure-causing transition saved but never fitted. No padding as support.",
+  "snapshot_rule": "Common Frozen original/margin collectors; refit isolated initializations on the same actual prefix. Fixed adapters during counterfactual branches.",
+  "selection": "After development, choose hardest Oracle-margin-recoverable nonnominal condition per phase, plus nominal stable balance; retain all15 live conditions regardless.",
+  "seed_rule": "Distinct deterministic namespaces for model seed, episode trial, nominal prefix, support pool, MPC stream and candidate replay.",
+  "trust": "Fixed predeclared alphas only; oracle-selected alpha is descriptive and never deployed.",
+  "statistics": "Five seed clusters; paired episodes; censoring reported, no success inferred for unreachable K.",
+  "usefulness": {
+    "prediction_fraction": 0.05,
+    "decision_fraction": 0.05,
+    "control_success_points": 0.1,
+    "control_cost_fraction": 0.1,
+    "baseline_error_floor": 1e-06,
+    "sustained_checkpoints": 2,
+    "minimum_reach_probability": 0.8
+  },
+  "emergencies": "No emergency or learned backup; conservative controller changes only predicted rail margin2.4 to2.1."
+}

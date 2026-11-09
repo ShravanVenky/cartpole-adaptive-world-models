@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.mplconfig/
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+*.part
+.download-cache/
+tests/
+smoke tests/
+smoke_tests/
+docs/analysis/
+external/
+results/
+*.tmp

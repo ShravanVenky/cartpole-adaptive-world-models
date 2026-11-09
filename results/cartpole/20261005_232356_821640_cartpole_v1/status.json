@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "stages": {
+    "prepared": {
+      "complete": true,
+      "config_hash": "1b0f65a091cb7b6d60f793de2efcf89579da7a3fc6f7886f7994906cf806ab31"
+    },
+    "train-base": {
+      "complete": true,
+      "completed_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ]
+    },
+    "meta-train": {
+      "complete": true,
+      "completed_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ]
+    },
+    "evaluate": {
+      "complete": true,
+      "completed_units": 7680,
+      "expected_units": 7680,
+      "expected_trial_rows": 23040,
+      "expected_rollout_rows": 92160
+    }
+  }
+}

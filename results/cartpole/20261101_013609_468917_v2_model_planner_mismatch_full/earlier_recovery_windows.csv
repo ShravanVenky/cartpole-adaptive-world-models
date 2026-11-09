@@ -1,0 +1,19 @@
+seed,collector,policy,tested,successful,latest_tested_recoverable_lead,conclusion
+11,meta_residual_1step,oracle,4,3,10,Recovery demonstrated at tested lead
+11,meta_residual_1step,oracle_original,4,3,10,Recovery demonstrated at tested lead
+11,ridge,oracle,4,1,40,Recovery demonstrated at tested lead
+11,ridge,oracle_original,4,1,40,Recovery demonstrated at tested lead
+22,meta_residual_1step,oracle,4,4,5,Recovery demonstrated at tested lead
+22,meta_residual_1step,oracle_original,4,4,5,Recovery demonstrated at tested lead
+22,ridge,oracle,4,1,40,Recovery demonstrated at tested lead
+22,ridge,oracle_original,4,1,40,Recovery demonstrated at tested lead
+33,meta_residual_1step,oracle,4,3,10,Recovery demonstrated at tested lead
+33,meta_residual_1step,oracle_original,4,3,10,Recovery demonstrated at tested lead
+33,ridge,oracle,3,1,20,Recovery demonstrated at tested lead
+33,ridge,oracle_original,3,1,20,Recovery demonstrated at tested lead
+44,meta_residual_1step,oracle,4,3,10,Recovery demonstrated at tested lead
+44,meta_residual_1step,oracle_original,4,2,20,Recovery demonstrated at tested lead
+44,ridge,oracle,4,1,40,Recovery demonstrated at tested lead
+44,ridge,oracle_original,4,1,40,Recovery demonstrated at tested lead
+55,ridge,oracle,4,1,40,Recovery demonstrated at tested lead
+55,ridge,oracle_original,4,1,40,Recovery demonstrated at tested lead

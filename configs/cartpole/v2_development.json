@@ -1,0 +1,47 @@
+{
+  "environments": [
+    {
+      "name": "dev_light",
+      "cart_mass": 0.9,
+      "pole_mass": 0.09,
+      "pole_half_length": 0.45,
+      "motor_gain": 1.05,
+      "cart_friction": 0.02,
+      "pole_friction": 0.002
+    },
+    {
+      "name": "dev_heavy",
+      "cart_mass": 1.1,
+      "pole_mass": 0.11,
+      "pole_half_length": 0.55,
+      "motor_gain": 0.95,
+      "cart_friction": 0.05,
+      "pole_friction": 0.003
+    }
+  ],
+  "pilot_seed": 11,
+  "pilot_steps": 150,
+  "pilot_tasks_per_step": 4,
+  "ranks": [
+    1,
+    2
+  ],
+  "rollout_options": [
+    {
+      "horizon": 5,
+      "rollout_weight": 0.1
+    },
+    {
+      "horizon": 10,
+      "rollout_weight": 0.025
+    }
+  ],
+  "layer_indices": [
+    0,
+    2
+  ],
+  "max_minutes": 40,
+  "selection": "equal mean one-step and100-step error ratios versus Frozen on development trajectories; one shared rank andH/lambda across factorial cells",
+  "inner_learning_rate": 0.01,
+  "inner_steps": 10
+}

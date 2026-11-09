@@ -1,0 +1,5 @@
+# Use the existing .venv. Actual CUDA/Python versions are recorded by the smoke checks.
+torch==2.11.0
+numpy==2.3.5
+matplotlib==3.10.8
+pandas==3.0.3

@@ -1,0 +1,1007 @@
+[
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_resume_seed11.pt",
+    "bytes": 1111802,
+    "sha256": "bb6491c5c77a1f05e462206ecf7663b28b4f43edf3f5dee7b7eb9b29afe4b330"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_resume_seed22.pt",
+    "bytes": 1111802,
+    "sha256": "9702fd9d8d7aa0b33e725eafa28ee90557d92b46ebddb6e5fe8608e08ca881e5"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_resume_seed33.pt",
+    "bytes": 1111802,
+    "sha256": "260e3ca09b25715018c2e6fef2639db9e1ea64b70cf65e467b688519f9187f60"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_resume_seed44.pt",
+    "bytes": 1111802,
+    "sha256": "7196c3fe86b720a3da04e0baa3a5baf23bf352ddd7b99d687788f0b440fbbcef"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_resume_seed55.pt",
+    "bytes": 1111802,
+    "sha256": "972ea38a6e8222c4ee6ccef5068ec660ef37b902d4e112952e96cf0f2cb680e1"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_seed11.pt",
+    "bytes": 279686,
+    "sha256": "bb5f984419d1a878858391f0284e14d191a7c50d01a0b1aa76a133af8e298b26"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_seed22.pt",
+    "bytes": 279686,
+    "sha256": "d6c1ee114d420bcf06556b8b0351858f6107c0748da38d0d809be718d58ae144"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_seed33.pt",
+    "bytes": 279686,
+    "sha256": "715573f955ec3bcbad3bfe18da1c2ae26b9176058ea59eabd42ecc73a8c9b60b"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_seed44.pt",
+    "bytes": 279686,
+    "sha256": "569c55a738f64fce01e0988721c6d7506828cbadd39ad754b226770c6fd28240"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/base_seed55.pt",
+    "bytes": 279686,
+    "sha256": "8ce7ede378e381e91c9099a79b912d55805e38493d41b5c40678acfe640116a2"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_resume_seed11.pt",
+    "bytes": 22796,
+    "sha256": "6b6edc3cb07e95e130bb98c6d9e776fccb34c022dac3b5fc42b298059a07480c"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_resume_seed22.pt",
+    "bytes": 22796,
+    "sha256": "ca29b1bc86867ce39d22bb8c0265e7b86112a342d1909d32478b00dfb37b894b"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_resume_seed33.pt",
+    "bytes": 22796,
+    "sha256": "2417e65016de5eced07a09e18e5a07fc7d5e14adead532dcdc1d9da8b30a58a3"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_resume_seed44.pt",
+    "bytes": 22796,
+    "sha256": "fd3ee866231454a74a10ec3289bb6904b5d10ccaad96d4a2d50bf68af4b767cf"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_resume_seed55.pt",
+    "bytes": 22796,
+    "sha256": "dcf84a163df518d0d96b8b901618461405cea0431aa32897d41d96888a23cead"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_seed11.pt",
+    "bytes": 5445,
+    "sha256": "835738b0868398415a862927dc4a9532ca7bd861a454d95520ec14f7b99ef35b"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_seed22.pt",
+    "bytes": 5445,
+    "sha256": "5777741f0a8eb9a5bca10e93850f3250f7d707dc480d237f7f989fc98d348b28"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_seed33.pt",
+    "bytes": 5445,
+    "sha256": "1b8ebd64cb47d1bd1f1683b82448cb88fdbeab29f035696714e29a15d266157f"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_seed44.pt",
+    "bytes": 5445,
+    "sha256": "515628ea6b918e0fe5ac5c56af7db1c92f62f8e350cb034bd440268d3432844b"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/meta_seed55.pt",
+    "bytes": 5445,
+    "sha256": "5c338122f19708d9c016c0cfc94c1a53da251759847e0391007525353d0f1506"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/ordinary_init_seed11.pt",
+    "bytes": 5361,
+    "sha256": "2aaf3a12a62dd2548ccf138aa04b342fba79b1a8c13277aea6437a817c2958eb"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/ordinary_init_seed22.pt",
+    "bytes": 5361,
+    "sha256": "48e9c000d9d1a9e21cac7f730a6f7877f5a428fc84be5fd8ffb7cbc988befaf3"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/ordinary_init_seed33.pt",
+    "bytes": 5361,
+    "sha256": "3c4aed65ae993379cb3f88f7e6ab99d8af9f83ebde1a16a5494b6621d594721a"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/ordinary_init_seed44.pt",
+    "bytes": 5361,
+    "sha256": "f9e7ca1634331e4fbac920fbf8fe5066ad89413f76a67ed8216d617833cf6394"
+  },
+  {
+    "path": "results/cartpole/20261005_232356_821640_cartpole_v1/checkpoints/ordinary_init_seed55.pt",
+    "bytes": 5361,
+    "sha256": "cdf6fc9a03e963b2cfaf08bc2b46d14032e6def92d64e89505637d3bae16f38f"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_1step_r1.pt",
+    "bytes": 7617,
+    "sha256": "91c8aa6792afa4c080de566836a420b83976389e381029262a29ada5cd3c9467"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_1step_r1.resume.pt",
+    "bytes": 25536,
+    "sha256": "bddc6ee275cbc3afd0876cdadb488b59ad4c0d0adc581c4a6b904030163de36e"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_1step_r2.pt",
+    "bytes": 10689,
+    "sha256": "064be8cc50bd4d8e4c46457b7c99e45386cb7216c9d6659f1d6114c969dfa3df"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_1step_r2.resume.pt",
+    "bytes": 38080,
+    "sha256": "f82723ecb87b14f52e38f3eff6916e1ef3092bb03ec4df2124fd5c9a5951216e"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r1_h10.pt",
+    "bytes": 7805,
+    "sha256": "9fb4070868f821866b8e3d79ba575d8566fc1b05dc2a61808b5f40348b6709c5"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r1_h10.resume.pt",
+    "bytes": 25762,
+    "sha256": "f1844ce2c9b5fc826cbd06b55552d448cd0873f42d3ff5ee921bf9b4a16980cc"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r1_h5.pt",
+    "bytes": 7795,
+    "sha256": "6f1f9ba072de5710179b9c50b3797977e73a60005b7b15681bca043d8bc51d03"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r1_h5.resume.pt",
+    "bytes": 25735,
+    "sha256": "80ff5b868fb8412c9626df4048cf6b257d6f3abc091305aba49abd119ffb1060"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r2_h10.pt",
+    "bytes": 10877,
+    "sha256": "3281c1f6390f8d80bf501623dd9aaa8780705906f5551231e981f09bab4d26cc"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r2_h10.resume.pt",
+    "bytes": 38306,
+    "sha256": "7d32af0434db1bce14442259f2775c749a50c391c492d82698b30d95cb411f2b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r2_h5.pt",
+    "bytes": 10867,
+    "sha256": "8c045cbf5ade2ced632254bbad15b835271e6836ea2e8357526cbc1b7e448a15"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_lora_rollout_r2_h5.resume.pt",
+    "bytes": 38279,
+    "sha256": "b04cb042b692044edb4211d43510ede82da64267720db6d3de5079b041f808a9"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_residual_rollout_h10.pt",
+    "bytes": 7009,
+    "sha256": "2e35bc4cb94b6fe941f90d5ce4e19333de7a02edc040951e5c8612ed825d28f0"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_residual_rollout_h10.resume.pt",
+    "bytes": 23597,
+    "sha256": "abf30463db77363f63c6b3bae9fb6384ad951d8761cc33eb44e27e4608cdcfd5"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_residual_rollout_h5.pt",
+    "bytes": 6997,
+    "sha256": "8e59c17a4a9ac3b58fcb1a8a48fac51de393bb963b54d3463ddd73ba6b6d22ff"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/development/dev_residual_rollout_h5.resume.pt",
+    "bytes": 23560,
+    "sha256": "be0b24c9ee882c5334bf924782865e8718fb8546472b7663ca4a94ef2ee27c3d"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed11.pt",
+    "bytes": 10867,
+    "sha256": "1b7eb34f865222c48be4dec45ab2a25a552c703f5c4a4babb48efdf5573622b0"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed11.resume.pt",
+    "bytes": 38279,
+    "sha256": "95d77b5bc38251def327a09029f44cac2662187be244a2667a3842a6e38f4a85"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed22.pt",
+    "bytes": 10867,
+    "sha256": "27c71e869160de7caf83799619b9a74518abd2ec8eb69e4c3c201d3c7261423d"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed22.resume.pt",
+    "bytes": 38279,
+    "sha256": "c7f2a25e7f4f63b9aa618d14f8873b82c6026cb93d240ea581b8fd61548fd5e8"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed33.pt",
+    "bytes": 10867,
+    "sha256": "a3174cc1e6c152208f3c1e268aa9bf7d7cb35b471dc20bd70b8d158e7f428717"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed33.resume.pt",
+    "bytes": 38279,
+    "sha256": "c645bdcdfc0054b28136253c4f9fa5749a63640f6ddaeb1d52748ec340455c64"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed44.pt",
+    "bytes": 10867,
+    "sha256": "20ca849d67fd52f1ab969d6f72b4af08c412647f5cd5f75e5a875e3d8071e422"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed44.resume.pt",
+    "bytes": 38279,
+    "sha256": "d720f5f7d1ade2241aeba7674255a3519f638db46d25d8f361ab06d9638751e6"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed55.pt",
+    "bytes": 10867,
+    "sha256": "d0c0dfef44ce809971e572febc89b5104c3dd164186e102301c4e8477f7ca64b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_1step_seed55.resume.pt",
+    "bytes": 38279,
+    "sha256": "3ab8dc51174b6c197408f904149cccfa35e9177fe16ac661e9244309f4817608"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed11.pt",
+    "bytes": 10951,
+    "sha256": "236dceeae9ca70696709112e5aedf87915a704c239c8b38e20776bf1f59ae962"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed11.resume.pt",
+    "bytes": 38333,
+    "sha256": "c1f13e671001b492e48c10fd4b599dee69213c09ab036acdef2dfc1feda28b0d"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed22.pt",
+    "bytes": 10951,
+    "sha256": "7a0a63bec3886342d47af5259e59a7c69c0147045c5342d4cdf8ec54bf08404d"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed22.resume.pt",
+    "bytes": 38333,
+    "sha256": "a7cc721b06914c23c8d0a9d7e903dccf90fa88af5d7a9ec97608656aeae546ee"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed33.pt",
+    "bytes": 10951,
+    "sha256": "5db1e098d50ffcee218ac4c7d3a0e3ebd8f22ef86e586ca4ebf76c076543f49b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed33.resume.pt",
+    "bytes": 38333,
+    "sha256": "03a0e1fd15d292db26ccddd33befe9307391280dfaf54fd61de4d740925b1a7b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed44.pt",
+    "bytes": 10951,
+    "sha256": "0c21219939712d913c06df345441cb3a2d72ace37f4d5d3d674ec1092b3b022e"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed44.resume.pt",
+    "bytes": 38333,
+    "sha256": "028655fa874fc2dac0a43dfb182e78c99f180e47eb5ca83d24e3e56f9ae66f45"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed55.pt",
+    "bytes": 10951,
+    "sha256": "6e9cda274c9c45cb70d70b2f8343003b12ad694ce1aeb7764854b4730bd22e1f"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_lora_rollout_seed55.resume.pt",
+    "bytes": 38333,
+    "sha256": "ec90f6822483e421dffd40e8308cd2515502ed08a08c9a10b65794f5e4d80a3c"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed11.pt",
+    "bytes": 7121,
+    "sha256": "74324ed046804d9cd2118dd14a94f0f1dabe5a722d52d96124816046f9ee5360"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed11.resume.pt",
+    "bytes": 23809,
+    "sha256": "9889ce1855a4fcab83d969d4647fc7b26cca62f618fcd2a8cfa140a1b1d75db2"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed22.pt",
+    "bytes": 7121,
+    "sha256": "0eec07386a6805b3ca764b957f1b9ca7219a278f43e65fd3373b430d1a5a7bc5"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed22.resume.pt",
+    "bytes": 23809,
+    "sha256": "e2b0b4fa9bc40b6dc229b70f8c0aad823de0a98e61c406474bd47b7d4da06f7d"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed33.pt",
+    "bytes": 7121,
+    "sha256": "90a9ffd1f9aa89fa4a23a264d5ad83fc90e544a51207b4b336d526c4552831b6"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed33.resume.pt",
+    "bytes": 23809,
+    "sha256": "33f6f8026a53acfa675e420644eb56475dcba72e9aef19f8b438fe5963a6e25f"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed44.pt",
+    "bytes": 7121,
+    "sha256": "d9c754b739fd41571f05dd135f6c8ea96de98e144f27c07832af111549ec83f4"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed44.resume.pt",
+    "bytes": 23809,
+    "sha256": "f255ab9d91755efc631fae691504e0f833a7cb2f2ba71126d9497b1d1705aa60"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed55.pt",
+    "bytes": 7121,
+    "sha256": "ae2e15c4ae9067394016db473abb76e32af1f99ca91de94c0abb2a684c967ab1"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/meta_residual_rollout_seed55.resume.pt",
+    "bytes": 23809,
+    "sha256": "be43b33a6ff906adc33f1d0f23c8e9f8f267c92e8a0c7d7c415b4b0282f5c742"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/base_seed11.pt",
+    "bytes": 279686,
+    "sha256": "bb5f984419d1a878858391f0284e14d191a7c50d01a0b1aa76a133af8e298b26"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/base_seed22.pt",
+    "bytes": 279686,
+    "sha256": "d6c1ee114d420bcf06556b8b0351858f6107c0748da38d0d809be718d58ae144"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/base_seed33.pt",
+    "bytes": 279686,
+    "sha256": "715573f955ec3bcbad3bfe18da1c2ae26b9176058ea59eabd42ecc73a8c9b60b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/base_seed44.pt",
+    "bytes": 279686,
+    "sha256": "569c55a738f64fce01e0988721c6d7506828cbadd39ad754b226770c6fd28240"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/base_seed55.pt",
+    "bytes": 279686,
+    "sha256": "8ce7ede378e381e91c9099a79b912d55805e38493d41b5c40678acfe640116a2"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/meta_seed11.pt",
+    "bytes": 5445,
+    "sha256": "835738b0868398415a862927dc4a9532ca7bd861a454d95520ec14f7b99ef35b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/meta_seed22.pt",
+    "bytes": 5445,
+    "sha256": "5777741f0a8eb9a5bca10e93850f3250f7d707dc480d237f7f989fc98d348b28"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/meta_seed33.pt",
+    "bytes": 5445,
+    "sha256": "1b8ebd64cb47d1bd1f1683b82448cb88fdbeab29f035696714e29a15d266157f"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/meta_seed44.pt",
+    "bytes": 5445,
+    "sha256": "515628ea6b918e0fe5ac5c56af7db1c92f62f8e350cb034bd440268d3432844b"
+  },
+  {
+    "path": "results/cartpole/20261006_140915_614361_cartpole_v2_factorial/checkpoints/reference/meta_seed55.pt",
+    "bytes": 5445,
+    "sha256": "5c338122f19708d9c016c0cfc94c1a53da251759847e0391007525353d0f1506"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_1step_best.npz",
+    "bytes": 3083,
+    "sha256": "affb29d0a892ac08547e7db6e41056780303d68b8e528965b7cdc0a3fe40e168"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_1step_restart0.pt",
+    "bytes": 20416,
+    "sha256": "473ad485cb8d0b32a02af102e59f37ca13eb68c1c850934a70346af106edbe08"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_1step_restart1.pt",
+    "bytes": 20416,
+    "sha256": "ef03635840cf36aa2578090c2fc1b6d49ddd16ce14369fd74f27f757cc7ba1fc"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_rollout_best.npz",
+    "bytes": 3084,
+    "sha256": "e27de8490a3e76563712adac050721b959440b8d6c02086973df04227d102f95"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 20554,
+    "sha256": "392a6ce2007512f2c7c5de1ed7aa3186c37eacbc3673c345079b35f8111c78e8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_friction_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 20554,
+    "sha256": "77ffd77125b79eb733e37d4049ef749505880fa827bd76d19f08dc24ad88353b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_1step_best.npz",
+    "bytes": 3083,
+    "sha256": "e566fc1399d6217b6039688ffe16370e408c72563cbcd29e40730be8f8b8ca78"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_1step_restart0.pt",
+    "bytes": 19783,
+    "sha256": "3f3617c63c6822f5b4465ab3ee60ace0581127fd6c5364777378d7e6001703e2"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_1step_restart1.pt",
+    "bytes": 19783,
+    "sha256": "d6ec637354e42100ba2e0b8bc16dfa23f646f62e5d6bfb561c59e73d80668320"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_rollout_best.npz",
+    "bytes": 3088,
+    "sha256": "752730e7a8a01789ff0739bc332ccc949b4ccf745d499ecb48af7cd930b7cbb5"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_rollout_restart0.pt",
+    "bytes": 19921,
+    "sha256": "102451d9a0176624ed9fd2da98804baaa1fd56b1708fb06576bfcde456d46b0b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_combined_geometry_meta_residual_rollout_restart1.pt",
+    "bytes": 19921,
+    "sha256": "8a5c0fe2325f01fbe522e729ea3139a04c173df17067994a16f1f76447f6e482"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_1step_best.npz",
+    "bytes": 3094,
+    "sha256": "2caf9560fdd97ce23e35b0e9129ea4c672ad180bda011d4f5a71c3d56340ecd1"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_1step_restart0.pt",
+    "bytes": 19413,
+    "sha256": "4a59356244696de41886b312febc674814db20b431ff1e1404f01db3af26dd42"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_1step_restart1.pt",
+    "bytes": 19413,
+    "sha256": "22a1c07c00c806012adac50128c43569950680e5d1ad4f9b34dcf2aa563e13f5"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_rollout_best.npz",
+    "bytes": 3086,
+    "sha256": "581cb44151cb91b663ac28199e241f3dcd792c258f5f5476e82ed7478d1d9506"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_rollout_restart0.pt",
+    "bytes": 19487,
+    "sha256": "36ae71ec50725083766060a08896af16395eefae232099a45cba9ffb7af97665"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_nominal_meta_residual_rollout_restart1.pt",
+    "bytes": 19487,
+    "sha256": "d85e29982c0e3da5cef7d8d897c523affda55bc8b2c9556fca6969ef94ec5aef"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_1step_best.npz",
+    "bytes": 3087,
+    "sha256": "9ca6c82ee6850fd2888f924374df02b22c4c02ba234248ef1ddb084689429d25"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_1step_restart0.pt",
+    "bytes": 19561,
+    "sha256": "7b0fed00eab7446bfb8f213edfa9ec6f9e974cc1b37caaf87c0f238e88eb2767"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_1step_restart1.pt",
+    "bytes": 19561,
+    "sha256": "8aa36dc0060cb663a17cf6c99c3bcc5ee57d38e5e5f9c5c7889221c4aabdddc3"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_rollout_best.npz",
+    "bytes": 3086,
+    "sha256": "dace0913b8da1bfaa73b822f82a4da10878eb76d3710e917827656dee4c2f58c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 19635,
+    "sha256": "f5f526f6a991b169f536eba0359fa6d8bfa63da40cf33406c5956a19fecaf18a"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/11_strong_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 19635,
+    "sha256": "8f62e7b9e44c99e862ab0e3aaed6a1e2a0f8af213851f4d6e78080d51e545740"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_1step_best.npz",
+    "bytes": 3091,
+    "sha256": "06c51270951b359f3e0fc63732e50d8a12529cc05b87b4f144ebfecc0cbfe9a1"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_1step_restart0.pt",
+    "bytes": 20416,
+    "sha256": "45737368c76ecc775609873b55ae269de6808236670ae9c8a4a8ef500da92eff"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_1step_restart1.pt",
+    "bytes": 20416,
+    "sha256": "aa3da64e67fcb708b56882b01a48efead2c7dfbc2de3e1d5b7f93a60d423f177"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_rollout_best.npz",
+    "bytes": 3089,
+    "sha256": "20cc40ac59901635ffde5e22d1994a09b50fa07671cd2ebbece40e9e552c7e05"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 20554,
+    "sha256": "89e62ef6d72c96bda68935bb29ddf2c20ba953ab0cc4041664dee46aa3fed684"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_friction_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 20554,
+    "sha256": "56a95b1efc746f5ec36d3b1bd5bfecc9a09117c91f8fde16f25887d68b68bd69"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_1step_best.npz",
+    "bytes": 3086,
+    "sha256": "d194ffdd1fa8ad16192646a17c10c17dba709d81617566a99f59a912b7e67295"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_1step_restart0.pt",
+    "bytes": 19783,
+    "sha256": "fd4db296b268dd3069100c5afc7d1f175da6c5737ce64f0d4b0da75473a4aba4"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_1step_restart1.pt",
+    "bytes": 19783,
+    "sha256": "56aa284e7fbc1d924950562fe56b697fc237990526baba106450be864f213f2e"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_rollout_best.npz",
+    "bytes": 3085,
+    "sha256": "84d9ec3528e2a2c4e09a0d38feb875d0ec09ba58e5217665ecb353909a7e16ac"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_rollout_restart0.pt",
+    "bytes": 19921,
+    "sha256": "f563b946f06e7dc17270c9d9fe02561e20d999fe4d7038775046c0279ef48544"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_combined_geometry_meta_residual_rollout_restart1.pt",
+    "bytes": 19921,
+    "sha256": "780d6364e6a23e57939c485d707a4e4566d4566e7b9e9583f490a4712e203c6c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_1step_best.npz",
+    "bytes": 3083,
+    "sha256": "4fc71833aed24a57c56464fa149f9257ef8f32a57e2acaeba354e1549d19085c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_1step_restart0.pt",
+    "bytes": 19413,
+    "sha256": "26b7a115d9612d35c2676e9202850f8ad35e2d8a47051986a7737ae949a7b845"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_1step_restart1.pt",
+    "bytes": 19413,
+    "sha256": "c69e4d9247e5b3e3162f6e12dd79e9f4158fdc3c359c6aa0db71a4a498ee13f3"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_rollout_best.npz",
+    "bytes": 3085,
+    "sha256": "aeaa40ae69d6d8de7262dadbb079eb80db4feb81913d27b8d1fb6cd038df78b6"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_rollout_restart0.pt",
+    "bytes": 19487,
+    "sha256": "f6f222494c42e85cedd4017f84b652468a35db12d48f91e80f3a584fe00bbc90"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_nominal_meta_residual_rollout_restart1.pt",
+    "bytes": 19487,
+    "sha256": "6780afaea01774b827d0763aaf460e02debd0df58def85c492b03779adb1b8d7"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_1step_best.npz",
+    "bytes": 3090,
+    "sha256": "f67612ecc365889c89bf7086d1e421e1a30d36ca8d37474905892e43a7f326d8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_1step_restart0.pt",
+    "bytes": 19561,
+    "sha256": "42e97f9b2ce900104470c2be971cdb079b71050a564e3cfc367a2cb80870fe9c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_1step_restart1.pt",
+    "bytes": 19561,
+    "sha256": "239e7fb6e933d5e330d0422d43c39da528a7a9859105f6780fe0e5c4ff6e1204"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_rollout_best.npz",
+    "bytes": 3087,
+    "sha256": "7d37795a0db5fa45fcc0958777f2b64a5ccc1cb169860b7475e5625c668ca421"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 19635,
+    "sha256": "e61ea4a5279e046e2240334f557ae5a9aacc56352e4b8cfb52e06bef97f13822"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/22_strong_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 19635,
+    "sha256": "e94853ade2ca79bd42e12ed195e1c0c507ae6aa0e954d64a06bc5ea76d1db798"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_1step_best.npz",
+    "bytes": 3089,
+    "sha256": "b813964804df896ab53e93b99070707a3c8d9ba9102611dcd0f27d80e9936e72"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_1step_restart0.pt",
+    "bytes": 20416,
+    "sha256": "db8221ced7e364bd06b66d2e3719fe1ba45cea9e3c5689912560bd3343b0abe9"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_1step_restart1.pt",
+    "bytes": 20416,
+    "sha256": "4e70792e113bdae4a7073953de881a0ac11c96b535ce5ac2d6359aab981c1fac"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_rollout_best.npz",
+    "bytes": 3090,
+    "sha256": "8645644585ceadce3b2fea839f0173f79582e6ae599ab94e87b83a35c028e22f"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 20554,
+    "sha256": "4d2205c7cd21c7c7a880a34d9a66512ef89d78adf9d71a1c375388e1ad25ca4f"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_friction_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 20554,
+    "sha256": "71775877553e9876308eea3b259d458c49f211a5fc65b4b02c4c2211053c9e9a"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_1step_best.npz",
+    "bytes": 3088,
+    "sha256": "84d82ad265a4d2c02ccd59d40472d3cfffb21d2ae8940da0e58619a2c9d7db93"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_1step_restart0.pt",
+    "bytes": 19783,
+    "sha256": "c05e03bc5a39a88e702e6dfbb71908901df505dc97ab680f72b9a11db35cb09a"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_1step_restart1.pt",
+    "bytes": 19783,
+    "sha256": "05cbd87e0d80179f7b4bc0fd7cd82e6ddcd36fdcfeaece4ccb2c26de92bc2e58"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_rollout_best.npz",
+    "bytes": 3079,
+    "sha256": "58c28f1b615edcdd4d5862d761425d210e97009e5c03a164ae4953c416baab78"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_rollout_restart0.pt",
+    "bytes": 19921,
+    "sha256": "4690ac6a00bae7f10b3936c1858c951fb03f1884589673be133c70817be5aac8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_combined_geometry_meta_residual_rollout_restart1.pt",
+    "bytes": 19921,
+    "sha256": "709ead63db6fd733ed6e781a2c033c97c521a0fedbddd7290fc9a3de032b710b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_1step_best.npz",
+    "bytes": 3089,
+    "sha256": "366f07070393f5eec10e292d9675c8001bbc62e40e8551c943e5b142bf4cf6dd"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_1step_restart0.pt",
+    "bytes": 19413,
+    "sha256": "dce9bce616aeb959bbb96d586868fa3bae9029b60d41fbc7113c8532312eedfa"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_1step_restart1.pt",
+    "bytes": 19413,
+    "sha256": "b1f3694a2428fe9ff64656df7612b5a6a41953fb7720ad00615bbe0ab356ec86"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_rollout_best.npz",
+    "bytes": 3092,
+    "sha256": "808877d321fc86be63ba9a746d1e6daeef10f9af233c52a8594c4fc0e0b8f519"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_rollout_restart0.pt",
+    "bytes": 19487,
+    "sha256": "204324b50f638316bd178a578e3c7443b53c9fd3030bd71a6edf5bcaeba6a195"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_nominal_meta_residual_rollout_restart1.pt",
+    "bytes": 19487,
+    "sha256": "dc51d4bb688379be1aae286d526c813aeb6cfdb41cdd0b40d56d4df45849101a"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_1step_best.npz",
+    "bytes": 3087,
+    "sha256": "e6511b3945afeb15cf1464ec19c5c9ca8322e8b77c9a0fdcd17448627b0e1407"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_1step_restart0.pt",
+    "bytes": 19561,
+    "sha256": "afe178561e5e95062dffcb690cd575299ab43f92cce1e64c62cdf97eea936fc5"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_1step_restart1.pt",
+    "bytes": 19561,
+    "sha256": "74abd8bb1a53f0546c3d4d145aafcd72581a601cc894edccdcd5e393c3a034d9"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_rollout_best.npz",
+    "bytes": 3078,
+    "sha256": "7151021b204156698401fb946525e5450c3a3988896ecc0fe323d9b989b3060f"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 19635,
+    "sha256": "d58eae1f9a5e6d9f3b88581255b27ab888e324d95e437a5063cd56e044789e30"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/33_strong_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 19635,
+    "sha256": "7ef9cc4c677bb53fb41b7e064e6e2a127965131939560d4ad673d90e8081280e"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_1step_best.npz",
+    "bytes": 3089,
+    "sha256": "42139bc5438050898cdb3818864918fa61f0ac9c87248e270472fe7b04c40b5b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_1step_restart0.pt",
+    "bytes": 20416,
+    "sha256": "dea3f3f57cfeb0b168401b7d0d9d2a5da80d464db9f69ce64d2a47bafff26e90"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_1step_restart1.pt",
+    "bytes": 20416,
+    "sha256": "59fe679454c55e8da5f73cdc9ceac4698313f2b393d2bab98f4a1b0b14f6b46c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_rollout_best.npz",
+    "bytes": 3084,
+    "sha256": "d33b9cf6f23c241d159549ef3835a3e658fa279de4b2d4946249c02cb295413c"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 20554,
+    "sha256": "95f1c054726b69bd7f039c0df5855ed062d5af80e5ed3f0253de68063c88e4b7"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_friction_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 20554,
+    "sha256": "5d93cb8d0682e94fb2a461ec611e3c07af4840671562f4eb521d3b1991b8c11d"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_1step_best.npz",
+    "bytes": 3086,
+    "sha256": "0ce3a0cce4ac0fa1d642ac4ff67d16470c8fec44da9c559e10a0c2ef4de6eea6"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_1step_restart0.pt",
+    "bytes": 19783,
+    "sha256": "906ae0488b221c52bb0b42a972d692658c2c531b2fa56e93ffbc214c7ba7aa72"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_1step_restart1.pt",
+    "bytes": 19783,
+    "sha256": "a05d3df08454aaf581769b217469ce81d2e639b5e8c5e607422b92286d4b47c3"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_rollout_best.npz",
+    "bytes": 3088,
+    "sha256": "147a1e9a004cbc006ba5934126b03f0db02c568c961cf2e2a6a4d38f77cc02ee"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_rollout_restart0.pt",
+    "bytes": 19921,
+    "sha256": "6eaad502611052d2b47838a37ca7a4dc9d409b7a22b08e19514d7f82d00ad7d1"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_combined_geometry_meta_residual_rollout_restart1.pt",
+    "bytes": 19921,
+    "sha256": "1a65eb71db667ff31745af336da1e6fbf69be8dfefda6d71900a7daf3acedd63"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_1step_best.npz",
+    "bytes": 3090,
+    "sha256": "bf7981b2ab533e797461bfed0f21ada5165fd4a8ad0701ce1ba99d2b2de6bb77"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_1step_restart0.pt",
+    "bytes": 19413,
+    "sha256": "2fb4f978306a2e9935b88edd6fceff72a00aea8d8f0175a9bb16d2b4cf42e49e"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_1step_restart1.pt",
+    "bytes": 19413,
+    "sha256": "c123a5d37606b8cfa864dde03471313210a6dc91f7f334eb1bedd2f3adc97344"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_rollout_best.npz",
+    "bytes": 3081,
+    "sha256": "c9f220b23afc497e108c12bb0f45ffcb9931fe856de2f249f60073acdb7b0487"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_rollout_restart0.pt",
+    "bytes": 19487,
+    "sha256": "89bdacd8f2ec4e8e703cb8ef34e565f56489139ed9ab340036eeeacd00cd7e59"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_nominal_meta_residual_rollout_restart1.pt",
+    "bytes": 19487,
+    "sha256": "3e3600d6b4e02b2d2765251178ecee04dfeb053d6fbe0f65e9b86c435a4157f8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_1step_best.npz",
+    "bytes": 3090,
+    "sha256": "59648c6ecf758c34b3d7fbb0fe44bac93c04295b6a4f3648ac6b9f9aebfe22cd"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_1step_restart0.pt",
+    "bytes": 19561,
+    "sha256": "05984340a9d87c7a6e3850b0abbeb9cc9559753b75e20aae7a567facea3a73df"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_1step_restart1.pt",
+    "bytes": 19561,
+    "sha256": "9c92c74ea05cb44c8a9a8f5287cfa8d28db0ae584eb86d0be0b084f35e2a0c9e"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_rollout_best.npz",
+    "bytes": 3083,
+    "sha256": "e59164d971bd487a1a2cc86d5299c0a9dba14322af8cfe9e565a987315daae1b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 19635,
+    "sha256": "bb1a61c3df1b903c57163324ccaabbdd1224e4f647a6a7fe81e2963f07b816a5"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/44_strong_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 19635,
+    "sha256": "2b7cba638d259083516f14d17f60800b1e50fba9ed2cb1a59b031cd10547f5a3"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_1step_best.npz",
+    "bytes": 3087,
+    "sha256": "836f56f39bf53ba7241bab1fd85e33368ce6417c2a700f19a98e61d89df19156"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_1step_restart0.pt",
+    "bytes": 20416,
+    "sha256": "a93753a4620ad3490bc514ab69d2a82471b9679592c3a993840dbee02aa58ee5"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_1step_restart1.pt",
+    "bytes": 20416,
+    "sha256": "5f2921882e257e4c0024fe94ab0c19bf33e932480719a6e526f3a32ce830477f"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_rollout_best.npz",
+    "bytes": 3083,
+    "sha256": "666ce08cb1f529f8e6ff7d76e2012841822bdc82e71143f5560b205e0c735748"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 20554,
+    "sha256": "f7e6acc609564ba9adcff255866dab7dd471f67836b146d7bbfe289bbd8dabfa"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_friction_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 20554,
+    "sha256": "d4a985fb007cdb9eb89d80d5d6cfae6e80fd2334e51ea489375573c7d4540dfc"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_1step_best.npz",
+    "bytes": 3081,
+    "sha256": "efb4c104c8094b9aa3082db7551b8fec4fb55d1a3f9984ae7084b44653bc63f8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_1step_restart0.pt",
+    "bytes": 19783,
+    "sha256": "316fad408afefc0a0c60ace625e13cc821f2744f4bfa889f04b480ed00a86038"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_1step_restart1.pt",
+    "bytes": 19783,
+    "sha256": "4bb6c5d4afa30ad7e5bb1a47ab489dc69d0fe51308c83947df53e02ffb451581"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_rollout_best.npz",
+    "bytes": 3087,
+    "sha256": "f7862209944adbbe235d97c3ba06d9570abd003a45fd76ab1dd94274a18b50c8"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_rollout_restart0.pt",
+    "bytes": 19921,
+    "sha256": "2afa111026c7755987eb06ce820f2472fcc0060180398443229b9b192ad19b98"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_combined_geometry_meta_residual_rollout_restart1.pt",
+    "bytes": 19921,
+    "sha256": "3f8d4088621cfead89afd5c8f9796a90a045e7e04b16385b8b4a3f240395a0a3"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_1step_best.npz",
+    "bytes": 3077,
+    "sha256": "3d71c2bb4f982fea840305afa38843fe362af55660aa0644305e1d5ab8ac9a2b"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_1step_restart0.pt",
+    "bytes": 19413,
+    "sha256": "8cd6a53b390316078314406719904ef92fccb900d6920c18badbcd409dc3a3ef"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_1step_restart1.pt",
+    "bytes": 19413,
+    "sha256": "e8fb6eef75b589767590891bcdf7943465388601b4fec4a6eed4a12264789171"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_rollout_best.npz",
+    "bytes": 3086,
+    "sha256": "20a07d839b6808dc46306d26ad5efbb137986d250652a92845b6dcc74ae07a56"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_rollout_restart0.pt",
+    "bytes": 19487,
+    "sha256": "54d2f35590e4397ff05241bcf01545b6255aa60ac5ae55798f4122c99b9348e2"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_nominal_meta_residual_rollout_restart1.pt",
+    "bytes": 19487,
+    "sha256": "d7949a26270321e082d0ba2c9b5042ecc1d9bb503aade0fed446466130b7515d"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_1step_best.npz",
+    "bytes": 3084,
+    "sha256": "733068bcc352a1cf8709f99ca17a58e9a0a93a80707d0666b0d0ececad137e4d"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_1step_restart0.pt",
+    "bytes": 19561,
+    "sha256": "49c40da3a11d8405ffbad9a58b63dd9be99091f2e89e03ed85399c1d952ce458"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_1step_restart1.pt",
+    "bytes": 19561,
+    "sha256": "f7268385d8c19400eafdeefce47d40b5d60cf1216247f1f52d6668badf6b5cee"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_rollout_best.npz",
+    "bytes": 3089,
+    "sha256": "33ec451e041cbfc11753fc41c9469681fd35ccbb5da7fefb3f37f53f39e29b46"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_rollout_restart0.pt",
+    "bytes": 19635,
+    "sha256": "cac2e219d5bcd49f56121f10431451d072e46c2a61b3aa2c8764c86b594b7a5f"
+  },
+  {
+    "path": "results/cartpole/20261101_013609_468917_v2_model_planner_mismatch_full/dense/55_strong_gain_meta_residual_rollout_restart1.pt",
+    "bytes": 19635,
+    "sha256": "e9bd4d94275d8d9649b2e2b19cc8ac99b81e009836d368d01b9775fc0f95b023"
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "experiment": "cartpole_v1_prediction_adaptation",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "device": "cuda",
+  "nominal": {
+    "cart_mass": 1.0,
+    "pole_mass": 0.1,
+    "pole_half_length": 0.5,
+    "motor_gain": 1.0,
+    "cart_friction": 0.0,
+    "pole_friction": 0.0,
+    "g": 9.81,
+    "dt": 0.02,
+    "force_limit": 10.0,
+    "rk4_substeps": 2
+  },
+  "meta_family": {
+    "cart_mass": [
+      0.8,
+      1.2
+    ],
+    "pole_mass": [
+      0.08,
+      0.12
+    ],
+    "pole_half_length": [
+      0.4,
+      0.6
+    ],
+    "motor_gain": [
+      0.85,
+      1.15
+    ],
+    "cart_friction": [
+      0.0,
+      0.08
+    ],
+    "pole_friction": [
+      0.0,
+      0.005
+    ]
+  },
+  "development": [
+    {
+      "name": "dev_light",
+      "cart_mass": 0.9,
+      "pole_mass": 0.09,
+      "pole_half_length": 0.45,
+      "motor_gain": 1.05,
+      "cart_friction": 0.02,
+      "pole_friction": 0.002
+    },
+    {
+      "name": "dev_heavy",
+      "cart_mass": 1.1,
+      "pole_mass": 0.11,
+      "pole_half_length": 0.55,
+      "motor_gain": 0.95,
+      "cart_friction": 0.05,
+      "pole_friction": 0.003
+    }
+  ],
+  "test_environments": [
+    {
+      "name": "id_interpolation_a",
+      "category": "ID",
+      "cart_mass": 0.85,
+      "pole_mass": 0.105,
+      "pole_half_length": 0.47,
+      "motor_gain": 1.08,
+      "cart_friction": 0.03,
+      "pole_friction": 0.001
+    },
+    {
+      "name": "id_interpolation_b",
+      "category": "ID",
+      "cart_mass": 1.15,
+      "pole_mass": 0.095,
+      "pole_half_length": 0.53,
+      "motor_gain": 0.92,
+      "cart_friction": 0.06,
+      "pole_friction": 0.004
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "base": {
+    "hidden_sizes": [
+      256,
+      256
+    ],
+    "train_count": 80000,
+    "validation_count": 4096,
+    "sequential_horizon": 100,
+    "batch_size": 2048,
+    "steps": 3000,
+    "learning_rate": 0.001,
+    "validation_every": 100,
+    "min_steps": 500,
+    "competence_nmse": 0.01,
+    "component_competence_nmse": 0.03,
+    "max_minutes": 20
+  },
+  "meta": {
+    "device": "cpu",
+    "cpu_threads": 1,
+    "hidden_sizes": [
+      16,
+      16
+    ],
+    "task_pool": 128,
+    "tasks_per_step": 8,
+    "steps": 2000,
+    "learning_rate": 0.001,
+    "support_K": [
+      5,
+      10,
+      20
+    ],
+    "query_steps": 64,
+    "query_trajectories": 4,
+    "validation_every": 100,
+    "first_order": false,
+    "max_minutes": 80
+  },
+  "adaptation": {
+    "learning_rate": 0.01,
+    "steps": 10,
+    "gradient_clip": 1.0,
+    "step_norm_bound": 0.1,
+    "max_parameter_delta": 2.0,
+    "residual_output_clip": 8.0,
+    "max_prediction_magnitude": 50.0,
+    "max_support_loss": 100.0,
+    "loss_growth_factor": 4.0
+  },
+  "ridge": {
+    "regularization": 0.1,
+    "degree": 1,
+    "feature_design": "same normalized observable six inputs plus intercept; no physics-derived features"
+  },
+  "evaluation": {
+    "device": "cpu",
+    "cpu_threads": 1,
+    "K": [
+      5,
+      10,
+      20,
+      50
+    ],
+    "methods": [
+      "frozen",
+      "ridge",
+      "meta"
+    ],
+    "regimes": [
+      "perturbed_balance",
+      "broad"
+    ],
+    "support_modes": [
+      "sequential",
+      "iid"
+    ],
+    "trials_per_seed": 8,
+    "query_steps": 64,
+    "query_trajectories": 4,
+    "rollout_trajectories": 4,
+    "rollout_horizons": [
+      5,
+      20,
+      50,
+      100
+    ],
+    "rollout_state_scale": [
+      2.4,
+      3.0,
+      3.141592653589793,
+      4.0
+    ],
+    "max_minutes": 60
+  },
+  "report": {
+    "meta_over_ridge_fractional_margin": 0.1,
+    "required_paired_win_fraction": 0.75,
+    "required_seed_wins": 4,
+    "required_seeds": 5,
+    "meaningful_ood_error_ratio": 2.0,
+    "minimum_meaningful_mismatch_fraction": 0.75
+  },
+  "priors": [
+    "sin/cos angle representation shared by all methods",
+    "frozen nominal normalization",
+    "state-delta prediction"
+  ],
+  "deferred": [
+    "online shift detector",
+    "active diagnostic probes",
+    "Bayesian cause inference",
+    "full-model fine-tuning",
+    "context encoder",
+    "control performance claims"
+  ]
+}

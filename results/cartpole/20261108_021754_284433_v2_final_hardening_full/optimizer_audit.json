@@ -1,0 +1,175 @@
+{
+  "models": [
+    {
+      "seed": 11,
+      "method": "meta_residual_1step",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 11,
+      "method": "meta_residual_rollout",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 22,
+      "method": "meta_residual_1step",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 22,
+      "method": "meta_residual_rollout",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 33,
+      "method": "meta_residual_1step",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 33,
+      "method": "meta_residual_rollout",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 44,
+      "method": "meta_residual_1step",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 44,
+      "method": "meta_residual_rollout",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 55,
+      "method": "meta_residual_1step",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    },
+    {
+      "seed": 55,
+      "method": "meta_residual_rollout",
+      "parameters": 452,
+      "settings": {
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 1.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "residual_output_clip": 8.0,
+        "max_prediction_magnitude": 50.0,
+        "max_support_loss": 100.0,
+        "loss_growth_factor": 4.0
+      }
+    }
+  ],
+  "optimizer": "functional plain gradient descent; no momentum",
+  "all_checkpoint_defaults_verified": true,
+  "gradient_clip": "one norm over all adapter gradient tensors",
+  "per_step_guard": 0.1,
+  "total_delta_guard": 2.0,
+  "reset": "Caller resets before each cumulative K fit; MetaResidualModel.adapt by itself starts from current adapted parameters.",
+  "gradients": "torch.autograd.grad each step; no accumulation; no outer Hessian graph at deployment",
+  "rejection": "Entire fitting call rolls back; no partially accepted prefix installed on rejection",
+  "path_length_bound": "10 * min(0.01*1,0.1) = 0.1; actual net displacement may be smaller",
+  "adam_mismatch": "Pretrained Meta inner loop is SGD. Adam deployment is a labelled optimizer mismatch diagnostic.",
+  "detector": "No active CartPole detector. Known shift schedule; residual alarms unavailable, never fabricated."
+}

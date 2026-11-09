@@ -1,0 +1,10 @@
+Mechanism,Evidence status,Scope
+Candidate-ranking errors,Directly demonstrated within tested pools,Matched predicted preferences are replayed under exact dynamics; fractions above concern evaluated states/pools.
+Candidate discovery and final CEM selection,Directly demonstrated within tested pools,"Oracle-best source coverage, recognized alternatives and final-mean gaps distinguish missing candidates from scoring errors."
+Compounding recursive error,Supported but not fully isolated,Teacher/recursive and horizon tables quantify accumulation; its causal episode impact also requires substitution controls.
+Few-shot identification/data quality,Supported but not fully isolated,Extensive-data versus few-shot paired gaps change both data and optimization; they do not isolate observation count alone.
+Support/query mismatch,Plausible; association measured,"Condition/operating-phase distance/error associations are descriptive, with state visitation as a confound."
+Insufficient representational capacity,Unresolved,A successful dense reference supports representability; failed optimization cannot prove insufficiency.
+Short horizon or objective design,Unresolved,H30/H15 and objectives are held fixed; Oracle-unsolved or locally reasonable plans do not isolate horizon versus objective.
+Universal monotonic prediction improvement,Contradicted by observed fixed-query prefixes,A trajectory prefix changes information quality as well as count.
+Model/planner interaction,Matched contrast measured; causal episode role unresolved,Joint substitution contrast is computed on identical candidates/states; extrapolation to architecture success remains unresolved.

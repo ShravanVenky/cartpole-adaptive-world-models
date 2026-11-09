@@ -1,0 +1,17 @@
+{
+  "device": "cpu",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "executable": "C:\\Users\\shrav\\OneDrive\\Desktop\\adapter sim\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.3.5",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.8"
+  },
+  "cpu_workers": 3,
+  "cpu_threads_per_worker": 1,
+  "logical_cpu_count": 16
+}

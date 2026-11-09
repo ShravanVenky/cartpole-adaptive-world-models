@@ -1,0 +1,13 @@
+case,existing_success,stronger_or_safer_success,category
+current_active_swingup_22,False,False,C: no recovery demonstrated under tested controllers
+current_active_swingup_44,False,False,C: no recovery demonstrated under tested controllers
+historical_online_combined_geometry_11,False,False,C: no recovery demonstrated under tested controllers
+historical_online_combined_geometry_22,False,False,C: no recovery demonstrated under tested controllers
+historical_online_combined_geometry_33,False,False,C: no recovery demonstrated under tested controllers
+historical_online_combined_geometry_44,False,False,C: no recovery demonstrated under tested controllers
+historical_online_combined_geometry_55,False,False,C: no recovery demonstrated under tested controllers
+historical_online_strong_gain_11,False,False,C: no recovery demonstrated under tested controllers
+historical_online_strong_gain_22,False,False,C: no recovery demonstrated under tested controllers
+historical_online_strong_gain_33,False,False,C: no recovery demonstrated under tested controllers
+historical_online_strong_gain_44,False,False,C: no recovery demonstrated under tested controllers
+historical_online_strong_gain_55,False,False,C: no recovery demonstrated under tested controllers

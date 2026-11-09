@@ -1,0 +1,26 @@
+{
+  "saved": {
+    "complete": true,
+    "wall_seconds": 0.5702649999875575
+  },
+  "replay": {
+    "complete": true,
+    "wall_seconds": 440.6280219000764
+  },
+  "forks": {
+    "complete": true,
+    "wall_seconds": 765.9425723999739
+  },
+  "dense": {
+    "complete": true,
+    "wall_seconds": 478.1340493999887
+  },
+  "confirmation": {
+    "complete": true,
+    "wall_seconds": 1939.054445900023
+  },
+  "synthesis": {
+    "complete": true,
+    "wall_seconds": 7.693577700061724
+  }
+}

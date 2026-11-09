@@ -1,0 +1,9 @@
+effect,evaluation,candidate,comparator,metric,matched_conditions,accepted_finite_pairs,invalid_or_rejected_pairs,median_paired_benefit,positive_trial_fraction,material_trial_fraction,positive_seed_count,material
+objective_residual,one_step,meta_residual_rollout,meta_residual_1step,nmse,3200,3200,0,-0.0014339822853657227,0.474375,0.0,2,False
+objective_residual,rollout_100,meta_residual_rollout,meta_residual_1step,nmse,3200,3200,0,0.008573897558525698,0.5853125,0.1065625,4,False
+objective_lora,one_step,meta_lora_rollout,meta_lora_1step,nmse,3200,3200,0,0.0035078429607332826,0.5521875,0.0025,3,False
+objective_lora,rollout_100,meta_lora_rollout,meta_lora_1step,nmse,3200,3200,0,0.012993940448314468,0.604375,0.174375,4,False
+location_one_step,one_step,meta_lora_1step,meta_residual_1step,nmse,3200,3200,0,-0.304347686566674,0.275625,0.13875,0,False
+location_one_step,rollout_100,meta_lora_1step,meta_residual_1step,nmse,3200,3200,0,-0.20450395709673358,0.2940625,0.1846875,0,False
+location_rollout,one_step,meta_lora_rollout,meta_residual_rollout,nmse,3200,3200,0,-0.3041271723968947,0.2809375,0.1509375,0,False
+location_rollout,rollout_100,meta_lora_rollout,meta_residual_rollout,nmse,3200,3200,0,-0.22242596884035243,0.295625,0.1896875,0,False

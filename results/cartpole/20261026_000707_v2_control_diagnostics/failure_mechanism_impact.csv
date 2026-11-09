@@ -1,0 +1,67 @@
+method,condition,mechanism,count,denominator,rate,evidence,causal
+frozen,online_combined_geometry,rail_crossing,60,60,1.0,direct observation,False
+frozen,online_strong_gain,rail_crossing,60,60,1.0,direct observation,False
+meta_residual_1step,near_gain,unsafe_preferred_action_with_positive_oracle_regret,9,9,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,strong_cart_mass,unsafe_preferred_action_with_positive_oracle_regret,9,9,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,online_strong_gain,rail_crossing,120,120,1.0,direct observation,False
+meta_residual_1step,online_strong_gain,rail_crossing,120,120,1.0,direct observation,False
+ridge,online_strong_gain,rail_crossing,120,120,1.0,direct observation,False
+ridge,online_combined_geometry,rail_crossing,120,120,1.0,direct observation,False
+oracle,online_strong_gain,rail_crossing,90,90,1.0,direct observation,False
+frozen,strong_cart_mass,unsafe_preferred_action_with_positive_oracle_regret,1,1,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+frozen,near_gain,unsafe_preferred_action_with_positive_oracle_regret,1,1,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,strong_cart_mass,unsafe_preferred_action_with_positive_oracle_regret,9,9,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,near_gain,unsafe_preferred_action_with_positive_oracle_regret,9,9,1.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,online_combined_geometry,rail_crossing,119,120,0.9916666666666667,direct observation,False
+meta_residual_rollout,online_combined_geometry,rail_crossing,119,120,0.9916666666666667,direct observation,False
+oracle,online_combined_geometry,rail_crossing,104,105,0.9904761904761905,direct observation,False
+meta_residual_rollout,combined_geometry,rail_crossing,130,180,0.7222222222222222,direct observation,False
+meta_residual_1step,combined_geometry,rail_crossing,123,180,0.6833333333333333,direct observation,False
+ridge,near_gain,unsafe_preferred_action_with_positive_oracle_regret,6,9,0.6666666666666666,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+ridge,strong_cart_mass,unsafe_preferred_action_with_positive_oracle_regret,6,9,0.6666666666666666,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+frozen,combined_geometry,rail_crossing,37,60,0.6166666666666667,direct observation,False
+ridge,combined_geometry,rail_crossing,70,165,0.42424242424242425,direct observation,False
+oracle,combined_geometry,rail_crossing,35,90,0.3888888888888889,direct observation,False
+ridge,nominal,rail_crossing,34,180,0.18888888888888888,direct observation,False
+ridge,combined_friction_gain,rail_crossing,30,180,0.16666666666666666,direct observation,False
+ridge,combined_geometry,time_limit_without_stabilization,26,165,0.15757575757575756,direct observation,False
+frozen,combined_geometry,time_limit_without_stabilization,8,60,0.13333333333333333,direct observation,False
+meta_residual_1step,combined_geometry,time_limit_without_stabilization,24,180,0.13333333333333333,direct observation,False
+ridge,combined_geometry,failure_to_maintain_stabilization,17,165,0.10303030303030303,direct observation,False
+meta_residual_rollout,combined_geometry,time_limit_without_stabilization,18,180,0.1,direct observation,False
+ridge,strong_gain,rail_crossing,15,180,0.08333333333333333,direct observation,False
+ridge,combined_geometry,never_reached_upright,12,165,0.07272727272727272,direct observation,False
+meta_residual_rollout,combined_friction_gain,unsafe_preferred_action_with_positive_oracle_regret,12,207,0.057971014492753624,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,combined_friction_gain,unsafe_preferred_action_with_positive_oracle_regret,12,207,0.057971014492753624,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+ridge,combined_friction_gain,unsafe_preferred_action_with_positive_oracle_regret,9,207,0.043478260869565216,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,combined_friction_gain,rail_crossing,4,180,0.022222222222222223,direct observation,False
+meta_residual_1step,combined_friction_gain,rail_crossing,4,180,0.022222222222222223,direct observation,False
+ridge,strong_gain,time_limit_without_stabilization,4,180,0.022222222222222223,direct observation,False
+ridge,near_gain,rail_crossing,4,180,0.022222222222222223,direct observation,False
+ridge,near_gain,time_limit_without_stabilization,3,180,0.016666666666666666,direct observation,False
+frozen,combined_geometry,failure_to_maintain_stabilization,1,60,0.016666666666666666,direct observation,False
+frozen,combined_geometry,high_velocity_upright_overshoot,1,60,0.016666666666666666,direct observation,False
+ridge,strong_gain,failure_to_maintain_stabilization,3,180,0.016666666666666666,direct observation,False
+ridge,nominal,time_limit_without_stabilization,1,180,0.005555555555555556,direct observation,False
+ridge,near_gain,failure_to_maintain_stabilization,1,180,0.005555555555555556,direct observation,False
+ridge,combined_friction_gain,failure_to_maintain_stabilization,1,180,0.005555555555555556,direct observation,False
+ridge,nominal,failure_to_maintain_stabilization,1,180,0.005555555555555556,direct observation,False
+frozen,strong_gain,unsafe_preferred_action_with_positive_oracle_regret,0,5,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+frozen,combined_friction_gain,unsafe_preferred_action_with_positive_oracle_regret,0,23,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+frozen,nominal,unsafe_preferred_action_with_positive_oracle_regret,0,1,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,combined_geometry,unsafe_preferred_action_with_positive_oracle_regret,0,81,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,strong_gain,unsafe_preferred_action_with_positive_oracle_regret,0,45,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,combined_geometry,unsafe_preferred_action_with_positive_oracle_regret,0,81,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_1step,nominal,unsafe_preferred_action_with_positive_oracle_regret,0,9,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+frozen,combined_geometry,unsafe_preferred_action_with_positive_oracle_regret,0,9,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,combined_friction_gain,unsafe_preferred_action_with_positive_oracle_regret,0,23,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,nominal,unsafe_preferred_action_with_positive_oracle_regret,0,9,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+meta_residual_rollout,strong_gain,unsafe_preferred_action_with_positive_oracle_regret,0,45,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,nominal,unsafe_preferred_action_with_positive_oracle_regret,0,1,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,near_gain,unsafe_preferred_action_with_positive_oracle_regret,0,1,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,combined_geometry,unsafe_preferred_action_with_positive_oracle_regret,0,9,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,strong_cart_mass,unsafe_preferred_action_with_positive_oracle_regret,0,1,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+ridge,combined_geometry,unsafe_preferred_action_with_positive_oracle_regret,0,81,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+oracle,strong_gain,unsafe_preferred_action_with_positive_oracle_regret,0,5,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+ridge,nominal,unsafe_preferred_action_with_positive_oracle_regret,0,9,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True
+ridge,strong_gain,unsafe_preferred_action_with_positive_oracle_regret,0,45,0.0,counterfactual Oracle evaluation of identical candidate sequences; not an episode-level attribution,True

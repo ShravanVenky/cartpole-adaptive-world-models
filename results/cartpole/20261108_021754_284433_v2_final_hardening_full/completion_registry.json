@@ -1,0 +1,44 @@
+{
+  "A": {
+    "complete": true,
+    "seconds": 4746.598888999957,
+    "completion": {
+      "passed": true,
+      "executed_controls": 1320,
+      "unavailable_slots": 0,
+      "planned_slots": 1320,
+      "selection_sha256": "2520041b0f9db5858f721ff2bca2a1365a17ebb1245ee29e26cead0b858f0585",
+      "development_report_sha256": "becb38b466e9c1c4135b75433f5ea8fc20f885e50a7091296b4a4bc4fd1dd89a"
+    }
+  },
+  "B": {
+    "complete": true,
+    "seconds": 4910.733971499954,
+    "completion": {
+      "passed": true,
+      "executed_controls": 1215,
+      "unavailable_slots": 0,
+      "planned_slots": 1215
+    }
+  },
+  "C": {
+    "complete": true,
+    "seconds": 584.4657319999533,
+    "completion": {
+      "passed": true,
+      "executed_controls": 3645,
+      "unavailable_slots": 0,
+      "planned_slots": 3645
+    }
+  },
+  "D": {
+    "complete": true,
+    "seconds": 10116.064787100011,
+    "completion": {
+      "passed": true,
+      "executed_controls": 1820,
+      "unavailable_slots": 0,
+      "planned_slots": 1820
+    }
+  }
+}

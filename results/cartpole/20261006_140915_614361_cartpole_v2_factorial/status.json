@@ -1,0 +1,79 @@
+{
+  "complete": true,
+  "stages": {
+    "prepare": {
+      "complete": true,
+      "baseline_checks": 420,
+      "all_baseline_checks_passed": true
+    },
+    "develop": {
+      "complete": true,
+      "selected": {
+        "rank": 2,
+        "horizon": 5,
+        "rollout_weight": 0.1,
+        "score": 1.058589267995363,
+        "layer_indices": [
+          0,
+          2
+        ],
+        "inner_learning_rate": 0.01,
+        "inner_steps": 10,
+        "selection_data": "development only; no final-test metrics read",
+        "pilot_seed": 11,
+        "pilot_steps": 150,
+        "candidate_count": 8,
+        "joint_candidates": [
+          {
+            "rank": 1,
+            "horizon": 5,
+            "rollout_weight": 0.1,
+            "score": 1.0665342763513872
+          },
+          {
+            "rank": 1,
+            "horizon": 10,
+            "rollout_weight": 0.025,
+            "score": 1.0746921893714279
+          },
+          {
+            "rank": 2,
+            "horizon": 5,
+            "rollout_weight": 0.1,
+            "score": 1.058589267995363
+          },
+          {
+            "rank": 2,
+            "horizon": 10,
+            "rollout_weight": 0.025,
+            "score": 1.067533399682915
+          }
+        ]
+      }
+    },
+    "train": {
+      "complete": true,
+      "completed_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ]
+    },
+    "evaluate": {
+      "complete": true,
+      "completed_seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "completed_units": 7680,
+      "expected_trial_rows": 46080,
+      "expected_rollout_rows": 230400,
+      "immutable_v1_verified": true
+    }
+  }
+}

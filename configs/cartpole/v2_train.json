@@ -1,0 +1,50 @@
+{
+  "nominal": {
+    "cart_mass": 1.0,
+    "pole_mass": 0.1,
+    "pole_half_length": 0.5,
+    "motor_gain": 1.0,
+    "cart_friction": 0.0,
+    "pole_friction": 0.0,
+    "g": 9.81,
+    "dt": 0.02,
+    "force_limit": 10.0,
+    "rk4_substeps": 2
+  },
+  "meta_family": {
+    "cart_mass": [
+      0.8,
+      1.2
+    ],
+    "pole_mass": [
+      0.08,
+      0.12
+    ],
+    "pole_half_length": [
+      0.4,
+      0.6
+    ],
+    "motor_gain": [
+      0.85,
+      1.15
+    ],
+    "cart_friction": [
+      0.0,
+      0.08
+    ],
+    "pole_friction": [
+      0.0,
+      0.005
+    ]
+  },
+  "steps": 2000,
+  "tasks_per_step": 8,
+  "learning_rate": 0.001,
+  "validation_every": 100,
+  "first_order": false,
+  "workers": 3,
+  "cpu_threads": 1,
+  "max_minutes_per_seed": 180,
+  "checkpoint_selection": "mean one-step development NMSE, identical criterion to V1",
+  "nominal_preservation_weight": 0.0
+}

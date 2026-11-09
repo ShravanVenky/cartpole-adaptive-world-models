@@ -1,0 +1,20 @@
+{
+  "experiment": "cartpole_v2_plasticity_objective_factorial",
+  "baseline_run": "results/cartpole/20261005_232356_821640_cartpole_v1",
+  "baseline_manifest": "archive/cartpole_v1/v1_hashes.json",
+  "config_files": {
+    "train": "configs/cartpole/v2_train.json",
+    "development_search": "configs/cartpole/v2_development.json",
+    "final_test": "configs/cartpole/v2_final_test.json"
+  },
+  "factorial_report": {
+    "material_benefit": 0.1,
+    "positive_trial_fraction": 0.6,
+    "ridge_joint_win_fraction": 0.6,
+    "seed_wins": 4,
+    "required_seeds": 5,
+    "one_step_preservation_tolerance": 0.05,
+    "reproduction_tolerance": 0.000001
+  },
+  "no_control": true
+}

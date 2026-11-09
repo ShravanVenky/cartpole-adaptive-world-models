@@ -1,0 +1,19 @@
+{
+  "live_conditions": 15,
+  "live_episodes": 2700,
+  "live_groups": 225,
+  "warmup_prefixes": 45,
+  "snapshot_conditions": 4,
+  "snapshot_cohorts": 80,
+  "snapshot_control_records": 5280,
+  "snapshot_ranking_records": 7680,
+  "fixed_confirmation_conditions": 4,
+  "fixed_confirmation_episodes": 1000,
+  "oracle_failure_replay_records": 75,
+  "planned_control_records": 9055,
+  "max_episode_MPC_row_calls": 4213900,
+  "max_warmup_MPC_row_calls": 8400,
+  "max_MPC_batch_calls_including_warmup": 240035,
+  "candidate_trajectory_evaluations": 3041280,
+  "note": "Upper-bounded records include explicit censored/unavailable rows; actual MPC calls depend on event times, failure, and reachable K. Warmup prefixes are additional shared interactions."
+}

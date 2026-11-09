@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "repository": "ShravanVenky/cartpole-adaptive-world-models",
+  "release": "v2-artifacts-2026-11-08",
+  "scope": "All seven CartPole runs; no retired Pendulum data",
+  "exclusions": [
+    "tests",
+    "smoke tests and artifacts",
+    "generated run reports",
+    "analysis reports",
+    "private environment files",
+    "external reference repositories",
+    "temporary files",
+    "bytecode"
+  ],
+  "artifacts": [
+    {
+      "run": "20261005_232356_821640_cartpole_v1",
+      "asset": "cartpole-v1-results.zip",
+      "files": 7761,
+      "raw_bytes": 290492211,
+      "archive_bytes": 82245928,
+      "sha256": "4041e93fbd63c4081be5c9494cb78d8f843f10a64eab1419ba0bc1d970693d42",
+      "browsable_files": 43,
+      "seconds": 59.36,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/cartpole-v1-results.zip"
+    },
+    {
+      "run": "20261006_140915_614361_cartpole_v2_factorial",
+      "asset": "cartpole-v2-factorial-results.zip",
+      "files": 7908,
+      "raw_bytes": 1107840438,
+      "archive_bytes": 216367882,
+      "sha256": "8c6630de8f5322a8d40778bb19569939bba66057f8e5aeb68dfd54af96230e86",
+      "browsable_files": 92,
+      "seconds": 154.34,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/cartpole-v2-factorial-results.zip"
+    },
+    {
+      "run": "20261023_v2_control",
+      "asset": "v2-control-results.zip",
+      "files": 1724,
+      "raw_bytes": 836993726,
+      "archive_bytes": 776211842,
+      "sha256": "a54923ffe85cf3fbb79af053208987ed9c891e2982c23cd432a18624d204cc19",
+      "browsable_files": 51,
+      "seconds": 10.84,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/v2-control-results.zip"
+    },
+    {
+      "run": "20261026_000707_v2_control_diagnostics",
+      "asset": "v2-control-diagnostics-results.zip",
+      "files": 1832,
+      "raw_bytes": 1913864806,
+      "archive_bytes": 1243459323,
+      "sha256": "67fb8119b60f6259eedef68b876c656284c0808b9ad02c28eb1ab32e7b49f4df",
+      "browsable_files": 56,
+      "seconds": 62.92,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/v2-control-diagnostics-results.zip"
+    },
+    {
+      "run": "20261026_223145_v2_final_validation_full",
+      "asset": "v2-final-validation-results.zip",
+      "files": 1465,
+      "raw_bytes": 532400691,
+      "archive_bytes": 231615049,
+      "sha256": "0c65a91db36f48de37a9d09d2bf161cdf980bb88a8b3d1196fea1a15f87107e2",
+      "browsable_files": 47,
+      "seconds": 41.73,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/v2-final-validation-results.zip"
+    },
+    {
+      "run": "20261101_013609_468917_v2_model_planner_mismatch_full",
+      "asset": "v2-model-planner-mismatch-results.zip",
+      "files": 1016,
+      "raw_bytes": 1876433361,
+      "archive_bytes": 1839332134,
+      "sha256": "d0cedcb3c1c74b841128fd59d727ba74c8986c76f231a0648d43a037439a58dd",
+      "browsable_files": 161,
+      "seconds": 20.64,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/v2-model-planner-mismatch-results.zip"
+    },
+    {
+      "run": "20261108_021754_284433_v2_final_hardening_full",
+      "asset": "v2-final-hardening-results.zip",
+      "files": 68805,
+      "raw_bytes": 987936410,
+      "archive_bytes": 775716615,
+      "sha256": "28e5f06985c26b975b399409b65367e2f1a588a1c45f7964c1a7b348c8e333c8",
+      "browsable_files": 94,
+      "seconds": 561.88,
+      "download_url": "https://github.com/ShravanVenky/cartpole-adaptive-world-models/releases/download/v2-artifacts-2026-11-08/v2-final-hardening-results.zip"
+    }
+  ]
+}

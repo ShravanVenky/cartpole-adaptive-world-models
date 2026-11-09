@@ -1,0 +1,13 @@
+regime,method,median_frozen_error_removed_pct
+broad,frozen,0.0
+broad,meta_lora_1step,-29.268987003841186
+broad,meta_lora_rollout,-30.97446612025765
+broad,meta_residual_1step,-6.541234152831176
+broad,meta_residual_rollout,-8.466154588049813
+broad,ridge,-47.91444351500229
+perturbed_balance,frozen,0.0
+perturbed_balance,meta_lora_1step,4.595707626344236
+perturbed_balance,meta_lora_rollout,6.940202919483873
+perturbed_balance,meta_residual_1step,26.25660339030845
+perturbed_balance,meta_residual_rollout,29.11019784995652
+perturbed_balance,ridge,58.96741304119001

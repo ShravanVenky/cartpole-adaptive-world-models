@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "episodes_per_seed": 3,
+  "budgets": [
+    0,
+    5,
+    10,
+    20,
+    50
+  ],
+  "environments": [
+    {
+      "name": "nominal",
+      "category": "nominal"
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "horizons": [
+    5,
+    15
+  ],
+  "swingup_extra_horizon": null,
+  "balance_steps": 400,
+  "swingup_steps": 600,
+  "candidates": 128,
+  "iterations": 3,
+  "elites": 16,
+  "rail_limit": 2.4,
+  "action_limit": 10,
+  "online_shift_step": 150,
+  "large_angle_shift_step": 25,
+  "disturbance_step": 150,
+  "disturbance_delta": [
+    0,
+    0.8,
+    0.5,
+    1.0
+  ],
+  "online_updates": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "success_angle": 0.15,
+  "success_omega": 0.8,
+  "sustained_steps": 100,
+  "recovery_consecutive_steps": 25,
+  "oracle_required_success": 0.875,
+  "oracle_validation_episodes": 8,
+  "bootstrap_seed": 4123,
+  "bootstrap_samples": 2000,
+  "noise": "none",
+  "support": "independent passive sequential; matched prefixes; separate seed namespace",
+  "online_protocol": "known shift; reset shared initialization and refit cumulative post-change prefixes at5/10/20/50 actual controller transitions; no detector/probes",
+  "angle": "unwrapped state, sin/cos features, wrapped error; no small-angle termination",
+  "source_v2": "C:\\Users\\shrav\\OneDrive\\Desktop\\adapter sim\\results\\cartpole\\20261006_140915_614361_cartpole_v2_factorial",
+  "methods": [
+    "frozen",
+    "ridge",
+    "meta_residual_1step",
+    "meta_residual_rollout"
+  ],
+  "offline_training": false
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unchanged_files": 22258,
+  "io_repaired_source_files": [
+    "scripts\\cartpole\\hardening\\common.py",
+    "scripts\\cartpole\\hardening\\runner.py"
+  ],
+  "archived_original_sources_verified": 2
+}

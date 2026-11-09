@@ -1,0 +1,306 @@
+{
+  "schema": "v2_model_planner_mismatch_1",
+  "model_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "development_trials": [
+    300
+  ],
+  "confirmation_trials": [
+    900,
+    901
+  ],
+  "fixed_confirmation_trials": [
+    500,
+    501
+  ],
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    10,
+    20,
+    50
+  ],
+  "regularization_K": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "conditions": [
+    {
+      "name": "active_swingup__combined_geometry",
+      "phase": "active_swingup",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__nominal",
+      "phase": "active_swingup",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__combined_friction_gain",
+      "phase": "active_swingup",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "active_swingup__strong_gain",
+      "phase": "active_swingup",
+      "environment": "strong_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "stable_balance__nominal",
+      "phase": "stable_balance",
+      "environment": "nominal",
+      "task": "balance",
+      "horizon": 15
+    }
+  ],
+  "fixed_conditions": [
+    {
+      "name": "nominal_swingup",
+      "environment": "nominal",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "geometry_swingup",
+      "environment": "combined_geometry",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "friction_swingup",
+      "environment": "combined_friction_gain",
+      "task": "swingup",
+      "horizon": 30
+    },
+    {
+      "name": "nominal_balance",
+      "environment": "nominal",
+      "task": "balance",
+      "horizon": 15
+    }
+  ],
+  "environments": [
+    {
+      "name": "nominal",
+      "category": "nominal"
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "budgets": {
+    "baseline": [
+      128,
+      3
+    ],
+    "high": [
+      1024,
+      5
+    ]
+  },
+  "elite_fraction": 0.125,
+  "active_change_step": 10,
+  "stable_warmup_steps": 100,
+  "stable_required_steps": 50,
+  "entry_max_steps": 450,
+  "swingup_steps": 600,
+  "balance_steps": 400,
+  "max_batch_rows": 48,
+  "snapshot_conditions": 4,
+  "recovery_cases": 25,
+  "recovery_historical_cases": 10,
+  "oracle_gate_success": 0.8,
+  "oracle_gate_poststeps": 100,
+  "ranking_broad_candidates": 128,
+  "ranking_chunk": 128,
+  "multistep_horizons": [
+    1,
+    5,
+    15,
+    30,
+    100
+  ],
+  "ridge_lambda_reference": 0.1,
+  "ridge_K_reference": 20,
+  "ridge_objectives": {
+    "existing": "sum squared residual +0.1*||B||^2",
+    "count_scaled": "mean squared residual +(0.1/20)*||B||^2; equivalent sum loss +0.1*K/20*||B||^2"
+  },
+  "support_pool_steps": 128,
+  "support_pool_trajectories": 8,
+  "dt": 0.02,
+  "rail_boundary": 2.4,
+  "success_angle": 0.15,
+  "success_omega": 0.8,
+  "sustained_steps": 100,
+  "recovery_window": 25,
+  "failure_penalty": 100000.0,
+  "numerical_state_bound": 100.0,
+  "excessive_crossing_speed": 4.0,
+  "near_upright_speed_penalty": 4.0,
+  "terminal_stabilization_extra": 20.0,
+  "bootstrap_samples": 2000,
+  "bootstrap_seed": 4123,
+  "noise": "none",
+  "offline_training": "Only isolated dense diagnostic copies of the same452parameter adapters",
+  "warmup": "One shared Frozen nominal controller per phase/modelseed/episode; all methods branch at identical observed change state.",
+  "observation_rule": "Only completed, non-failing, actual post-change transitions. Failure-causing transition saved but never fitted. No padding as support.",
+  "snapshot_rule": "Common Frozen original/margin collectors; refit isolated initializations on the same actual prefix. Fixed adapters during counterfactual branches.",
+  "selection": "After development, choose hardest Oracle-margin-recoverable nonnominal condition per phase, plus nominal stable balance; retain all15 live conditions regardless.",
+  "seed_rule": "Distinct deterministic namespaces for model seed, episode trial, nominal prefix, support pool, MPC stream and candidate replay.",
+  "trust": "Fixed predeclared alphas only; oracle-selected alpha is descriptive and never deployed.",
+  "statistics": "Five seed clusters; paired episodes; censoring reported, no success inferred for unreachable K.",
+  "usefulness": {
+    "prediction_fraction": 0.05,
+    "decision_fraction": 0.05,
+    "control_success_points": 0.1,
+    "control_cost_fraction": 0.1,
+    "baseline_error_floor": 1e-06,
+    "sustained_checkpoints": 2,
+    "minimum_reach_probability": 0.8
+  },
+  "emergencies": "No emergency or learned backup; conservative controller changes only predicted rail margin2.4 to2.1.",
+  "source_run": "results\\cartpole\\20261026_223145_v2_final_validation_full",
+  "archived_trial": 400,
+  "query_trial": 401,
+  "replay_times_geometry": [
+    10,
+    50,
+    150
+  ],
+  "replay_times_other": [
+    20,
+    50
+  ],
+  "forecast_steps": [
+    1,
+    5,
+    10,
+    20,
+    30
+  ],
+  "fixed_query_candidates": 128,
+  "broad_candidates": 128,
+  "candidate_chunk": 2048,
+  "pre_failure_leads": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "intervention_time": 150,
+  "ranking_regret_threshold": 0.1,
+  "search_regret_threshold": 0.1,
+  "good_candidate_tolerance": 0.05,
+  "false_safe_threshold": 0.0,
+  "rank_top_k": 10,
+  "dense_environments": [
+    "combined_geometry",
+    "nominal",
+    "combined_friction_gain",
+    "strong_gain"
+  ],
+  "dense_train_count": 16384,
+  "dense_validation_count": 4096,
+  "dense_updates": 2000,
+  "dense_batch_size": 1024,
+  "dense_learning_rates": [
+    0.001,
+    0.003
+  ],
+  "dense_check_every": 100,
+  "dense_seed": 7041,
+  "state_scale": [
+    2.4,
+    3.0,
+    3.141592653589793,
+    4.0
+  ],
+  "phase_definitions": {
+    "upright_angle": 0.15,
+    "capture_angle": 0.5,
+    "capture_omega": 4.0,
+    "high_omega": 4.0,
+    "high_force": 9.5,
+    "near_rail": 1.8,
+    "large_angle": 1.5707963267948966,
+    "early_steps": 100
+  },
+  "historical_role": "All previously inspected V2 states are development/diagnostic, never new held-out confirmation",
+  "fixed_query_rule": "Query trial401; support trial400. Independent episodes, fixed query/candidates for all observation counts.",
+  "replay_warm_start": "Common zero CEM mean for action-ranking replay; not a reconstruction of the exact historical search.",
+  "full_confirmation_rule": "New nominal prefixes and controller-generated online observations in trial900/901; no outcome-based tuning.",
+  "dense_split_rule": "Synthetic development state-action resets plus development replay candidate regions; separate validation sampler; no confirmation observations.",
+  "dense_architecture": "Same6->16->16->4 tanh,452parameters, original normalizer/output clipping/physical-delta guards.",
+  "attribution": "Within-pool counterfactual attribution, not proof of globally optimal search or episode causality."
+}

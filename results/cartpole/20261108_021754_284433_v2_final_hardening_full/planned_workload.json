@@ -1,0 +1,41 @@
+{
+  "A": {
+    "offline_fits_upper": 1080,
+    "offline_prediction_rows_upper": 4920,
+    "control_slots_upper": 1320,
+    "development_control_slots": 600,
+    "confirmation_control_slots": 720
+  },
+  "B": {
+    "control_slots": 1215,
+    "support_collections": 135
+  },
+  "C": {
+    "control_slots": 3645,
+    "scenarios": 21
+  },
+  "D": {
+    "control_slots": 1820,
+    "scenarios": 26
+  },
+  "total_control_slots_upper": 8000,
+  "A12_requested_gradient_updates": 39000,
+  "maximum_fit_calls": {
+    "A_offline": 1080,
+    "A_control": 2880,
+    "B": 675,
+    "C": 13860,
+    "D": 13300,
+    "collections": 910
+  },
+  "optimizer_updates_upper": {
+    "A_offline": 540000,
+    "A_online": 1260000,
+    "A_confirmation_snapshot": 80000,
+    "B_fits": 270000,
+    "C_online": 5670000,
+    "D_online": 5320000,
+    "support_collection": 9100
+  },
+  "note": "Upper bounds include unavailable starts/support and shortlist deduplication. Conditional combined impulses require prior sustained stabilization. Warmups, support collection, and labelled reference pools are separately counted."
+}

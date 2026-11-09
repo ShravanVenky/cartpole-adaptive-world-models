@@ -1,0 +1,123 @@
+{
+  "mode": "benchmark",
+  "timings": {
+    "live_h15": 4.90328829997452,
+    "snapshot_8K": 12.384166900010314,
+    "forks": 3.0352440000278875,
+    "live_h30": 7.1426372999558225,
+    "fixed25": 3.2267700000084005,
+    "oracle_recovery": 5.025047299975995
+  },
+  "wall_seconds": 49.932491299987305,
+  "peak": {
+    "torch_peak_allocated_mib": 124.09033203125,
+    "torch_peak_reserved_mib": 314.0,
+    "telemetry_samples": 57,
+    "gpu_utilization_mean": 36.24561403508772,
+    "gpu_utilization_peak": 91.0,
+    "nvidia_peak_used_mib": 2005.0
+  },
+  "live_h15": {
+    "setup_seconds": 0.9107654999825172,
+    "loop_seconds": 2.7464913000003435,
+    "mpc_batch_calls": 55,
+    "wall_seconds": 3.670294300012756,
+    "mpc_core_seconds": 1.5827751998440363,
+    "one_off_checkpoint_and_update_seconds": 1.1637161001563072,
+    "serialization_and_metrics_seconds": 0.013037500029895455
+  },
+  "live_h30": {
+    "setup_seconds": 1.8239723999868147,
+    "loop_seconds": 4.495551100000739,
+    "mpc_batch_calls": 55,
+    "wall_seconds": 6.334312599967234,
+    "mpc_core_seconds": 2.807427199848462,
+    "one_off_checkpoint_and_update_seconds": 1.6881239001522772,
+    "serialization_and_metrics_seconds": 0.014789099979680032
+  },
+  "dense48": {
+    "setup_seconds": 1.7657571000163443,
+    "loop_seconds": 1.2014481999794953,
+    "mpc_batch_calls": 20,
+    "wall_seconds": 2.9937364000361413,
+    "mpc_core_seconds": 1.1967896998976357,
+    "one_off_checkpoint_and_update_seconds": 0.004658500081859529,
+    "serialization_and_metrics_seconds": 0.02653110004030168
+  },
+  "fork_batches": [
+    {
+      "setup_seconds": 0.8424997000256553,
+      "loop_seconds": 0.6067075000028126,
+      "mpc_batch_calls": 15,
+      "wall_seconds": 1.4710029000416398,
+      "mpc_core_seconds": 0.6019265999784693,
+      "one_off_checkpoint_and_update_seconds": 0.004780900024343282,
+      "serialization_and_metrics_seconds": 0.02179570001317188
+    },
+    {
+      "setup_seconds": 0.9458179000066593,
+      "loop_seconds": 0.3994772000005469,
+      "mpc_batch_calls": 15,
+      "wall_seconds": 1.356556999962777,
+      "mpc_core_seconds": 0.39687690004939213,
+      "one_off_checkpoint_and_update_seconds": 0.0026002999511547387,
+      "serialization_and_metrics_seconds": 0.011261899955570698
+    }
+  ],
+  "snapshot_seconds": 12.340967199997976,
+  "fixed25": {
+    "setup_seconds": 1.826572699996177,
+    "loop_seconds": 1.1433851000037976,
+    "mpc_batch_calls": 20,
+    "wall_seconds": 2.983007800008636,
+    "mpc_core_seconds": 1.1383642999571748,
+    "one_off_checkpoint_and_update_seconds": 0.005020800046622753,
+    "serialization_and_metrics_seconds": 0.0130500000086613
+  },
+  "recovery_batches": [
+    {
+      "setup_seconds": 1.4167462000041269,
+      "loop_seconds": 0.4024800999904983,
+      "mpc_batch_calls": 10,
+      "wall_seconds": 1.823055499990005,
+      "mpc_core_seconds": 0.3957606999319978,
+      "one_off_checkpoint_and_update_seconds": 0.006719400058500469,
+      "serialization_and_metrics_seconds": 0.003829199995379895
+    },
+    {
+      "setup_seconds": 2.4831344000413083,
+      "loop_seconds": 0.6634247999754734,
+      "mpc_batch_calls": 10,
+      "wall_seconds": 3.1501854000380263,
+      "mpc_core_seconds": 0.6610514000058174,
+      "one_off_checkpoint_and_update_seconds": 0.0023733999696560204,
+      "serialization_and_metrics_seconds": 0.0036262000212445855
+    }
+  ],
+  "planning_backend": {
+    "compared": true,
+    "batch": 12,
+    "horizon": 15,
+    "planning_calls": 3,
+    "cuda_graph_seconds": 0.0627542000147514,
+    "gpu_eager_seconds": 0.7814250999945216,
+    "speedup": 12.452156187328255,
+    "matched_actions": true,
+    "fastest_verified": "CUDA graphs",
+    "scope": "Planning-only backend comparison; end-to-end online timing separately includes updates, actual stepping and serialization."
+  },
+  "checks": {
+    "resume_cache_hit": true,
+    "no_future_support_leak": true,
+    "isolated_snapshot_updates": true,
+    "all_eight_K_paths": true,
+    "experiments_1_to_6_exercised": true,
+    "fixed_confirmation_exercised": true,
+    "actual_ridge_equal_at_K20": true,
+    "fork_chunks_common_randomness": true,
+    "development_confirmation_separated": true,
+    "censored_denominators_preserved": true,
+    "incomplete_matrix_rejected": true
+  },
+  "scientific_validation": false
+}

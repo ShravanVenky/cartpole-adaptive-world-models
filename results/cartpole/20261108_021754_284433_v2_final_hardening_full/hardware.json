@@ -1,0 +1,7 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "execution_device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_mib": 8187.5
+}

@@ -1,0 +1,145 @@
+{
+  "selected": {
+    "meta_residual_1step": {
+      "name": "clip_5.0",
+      "learning_rate": 0.01,
+      "steps": 10,
+      "gradient_clip": 5.0,
+      "step_norm_bound": 0.1,
+      "max_parameter_delta": 2.0,
+      "algorithm": "sgd",
+      "isolated_diagnostic": false
+    },
+    "meta_residual_rollout": {
+      "name": "clip_5.0",
+      "learning_rate": 0.01,
+      "steps": 10,
+      "gradient_clip": 5.0,
+      "step_norm_bound": 0.1,
+      "max_parameter_delta": 2.0,
+      "algorithm": "sgd",
+      "isolated_diagnostic": false
+    }
+  },
+  "selection": [
+    {
+      "method": "meta_residual_1step",
+      "config": {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "success_gain": 0.050000000000000044,
+      "cost_ratio": 0.9055787819799092,
+      "nominal_success_delta": 0.0,
+      "eligible": true
+    },
+    {
+      "method": "meta_residual_1step",
+      "config": {
+        "name": "clip_None",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": null,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "success_gain": 0.050000000000000044,
+      "cost_ratio": 0.9055787819799092,
+      "nominal_success_delta": 0.0,
+      "eligible": true
+    },
+    {
+      "method": "meta_residual_1step",
+      "selected": {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "reason": "Development control gain with nominal regression guard."
+    },
+    {
+      "method": "meta_residual_rollout",
+      "config": {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "success_gain": 0.04999999999999993,
+      "cost_ratio": 0.8710168011923508,
+      "nominal_success_delta": 0.0,
+      "eligible": true
+    },
+    {
+      "method": "meta_residual_rollout",
+      "config": {
+        "name": "clip_None",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": null,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "success_gain": 0.04999999999999993,
+      "cost_ratio": 0.8710168011923508,
+      "nominal_success_delta": 0.0,
+      "eligible": true
+    },
+    {
+      "method": "meta_residual_rollout",
+      "selected": {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      "reason": "Development control gain with nominal regression guard."
+    }
+  ],
+  "thresholds": {
+    "prediction_nmse_ratio": 0.9,
+    "planning_regret_ratio": 0.9,
+    "difficult_success_gain_pp": 20.0,
+    "nominal_regression_pp": 10.0,
+    "maximum_observations": 50,
+    "recovery_success": 0.8,
+    "generalization_cost_ratio": 0.9,
+    "generalization_success_gain_pp": 10.0,
+    "fitting_budget_ms": 20.0,
+    "loop_budget_ms": 20.0,
+    "confidence": 0.95
+  },
+  "delay_steps_p95_development": {
+    "meta_residual_1step": 2,
+    "meta_residual_rollout": 2
+  },
+  "confirmation_used": false,
+  "development_controls_sha256": "d4084b1fbfd9c01ae694a1586cc0e01f1ff78fcf915f09f6541fe8e9cb67bc2e",
+  "optimizer_audit_sha256": "a300df3586638918daaaf331b71ccad3e4a6546416086960338b471cc4062f6a",
+  "development_report_sha256": "becb38b466e9c1c4135b75433f5ea8fc20f885e50a7091296b4a4bc4fd1dd89a",
+  "protocol_sha256": "be5578eda3930805aea8c2b5bab23ea3587c1528b3e91bbad0b938cee7c20191",
+  "mode": "full"
+}

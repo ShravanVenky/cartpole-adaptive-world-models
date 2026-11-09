@@ -1,0 +1,126 @@
+{
+  "test_environments": [
+    {
+      "name": "id_interpolation_a",
+      "category": "ID",
+      "cart_mass": 0.85,
+      "pole_mass": 0.105,
+      "pole_half_length": 0.47,
+      "motor_gain": 1.08,
+      "cart_friction": 0.03,
+      "pole_friction": 0.001
+    },
+    {
+      "name": "id_interpolation_b",
+      "category": "ID",
+      "cart_mass": 1.15,
+      "pole_mass": 0.095,
+      "pole_half_length": 0.53,
+      "motor_gain": 0.92,
+      "cart_friction": 0.06,
+      "pole_friction": 0.004
+    },
+    {
+      "name": "near_cart_mass",
+      "category": "near_OOD",
+      "cart_mass": 1.35
+    },
+    {
+      "name": "near_pole_mass",
+      "category": "near_OOD",
+      "pole_mass": 0.14
+    },
+    {
+      "name": "near_length",
+      "category": "near_OOD",
+      "pole_half_length": 0.65
+    },
+    {
+      "name": "near_gain",
+      "category": "near_OOD",
+      "motor_gain": 0.75
+    },
+    {
+      "name": "strong_cart_mass",
+      "category": "strong_OOD",
+      "cart_mass": 1.6
+    },
+    {
+      "name": "strong_pole_mass",
+      "category": "strong_OOD",
+      "pole_mass": 0.18
+    },
+    {
+      "name": "strong_length",
+      "category": "strong_OOD",
+      "pole_half_length": 0.75
+    },
+    {
+      "name": "strong_gain",
+      "category": "strong_OOD",
+      "motor_gain": 0.6
+    },
+    {
+      "name": "combined_geometry",
+      "category": "combined",
+      "cart_mass": 1.35,
+      "pole_mass": 0.14,
+      "pole_half_length": 0.65,
+      "motor_gain": 0.8
+    },
+    {
+      "name": "combined_friction_gain",
+      "category": "combined",
+      "motor_gain": 0.75,
+      "cart_friction": 0.12,
+      "pole_friction": 0.008
+    }
+  ],
+  "evaluation": {
+    "device": "cpu",
+    "cpu_threads": 1,
+    "K": [
+      5,
+      10,
+      20,
+      50
+    ],
+    "methods": [
+      "frozen",
+      "ridge",
+      "meta_residual_1step",
+      "meta_residual_rollout",
+      "meta_lora_1step",
+      "meta_lora_rollout"
+    ],
+    "regimes": [
+      "perturbed_balance",
+      "broad"
+    ],
+    "support_modes": [
+      "sequential",
+      "iid"
+    ],
+    "trials_per_seed": 8,
+    "query_steps": 64,
+    "query_trajectories": 4,
+    "rollout_trajectories": 4,
+    "rollout_horizons": [
+      1,
+      5,
+      20,
+      50,
+      100
+    ],
+    "rollout_state_scale": [
+      2.4,
+      3.0,
+      3.141592653589793,
+      4.0
+    ],
+    "max_minutes": 60,
+    "max_minutes_per_seed": 60
+  },
+  "seed_policy": "exactV1 stable_seed(seed,final_evaluation,environment,regime,trial), identicalstreamnames",
+  "immutable": true
+}

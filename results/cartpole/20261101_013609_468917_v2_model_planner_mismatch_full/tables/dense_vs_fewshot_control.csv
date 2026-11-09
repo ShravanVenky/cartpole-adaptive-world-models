@@ -1,0 +1,11 @@
+condition,evaluation_type,method,metric,difference,ci_low,ci_high,pairs
+active_swingup__combined_friction_gain,actual_online,meta_residual_1step,dense_minus_fewshot_success,0.0,0.0,0.0,10
+active_swingup__combined_friction_gain,actual_online,meta_residual_rollout,dense_minus_fewshot_success,0.1,0.0,0.3,10
+active_swingup__combined_geometry,actual_online,meta_residual_1step,dense_minus_fewshot_success,0.8,0.6,1.0,10
+active_swingup__combined_geometry,actual_online,meta_residual_rollout,dense_minus_fewshot_success,0.8,0.4,1.0,10
+active_swingup__nominal,actual_online,meta_residual_1step,dense_minus_fewshot_success,0.0,0.0,0.0,10
+active_swingup__nominal,actual_online,meta_residual_rollout,dense_minus_fewshot_success,0.0,-0.3,0.3,10
+active_swingup__strong_gain,actual_online,meta_residual_1step,dense_minus_fewshot_success,0.0,0.0,0.0,10
+active_swingup__strong_gain,actual_online,meta_residual_rollout,dense_minus_fewshot_success,0.0,0.0,0.0,10
+stable_balance__nominal,actual_online,meta_residual_1step,dense_minus_fewshot_success,0.0,0.0,0.0,10
+stable_balance__nominal,actual_online,meta_residual_rollout,dense_minus_fewshot_success,0.0,0.0,0.0,10

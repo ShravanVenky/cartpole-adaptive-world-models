@@ -1,0 +1,49 @@
+{
+  "shortlist": {
+    "meta_residual_1step": [
+      {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      {
+        "name": "clip_None",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": null,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      }
+    ],
+    "meta_residual_rollout": [
+      {
+        "name": "clip_5.0",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": 5.0,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      },
+      {
+        "name": "clip_None",
+        "learning_rate": 0.01,
+        "steps": 10,
+        "gradient_clip": null,
+        "step_norm_bound": 0.1,
+        "max_parameter_delta": 2.0,
+        "algorithm": "sgd",
+        "isolated_diagnostic": false
+      }
+    ]
+  },
+  "confirmation_used": false
+}
